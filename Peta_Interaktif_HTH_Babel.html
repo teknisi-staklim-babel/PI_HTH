@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_641bbb590b42f870d84af7f042c9533b {
+                #map_4c5cfa23ee16cc1290375b03e96580d6 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -58,7 +58,7 @@
 <b>MONITORING HARI TANPA HUJAN BERTURUT-TURUT</b><br>
 <b>PROVINSI KEP. BANGKA BELITUNG</b><br>
 <span style="font-size:14px">
-<i>Update: 31 Maret 2026</i>
+<i>Update: 10 April 2026</i>
 </span>
 </h3>
     
@@ -83,14 +83,14 @@ font-size: 12px;
 <i style="background:#008000;width:12px;height:12px;display:inline-block"></i> Masih ada hujan
 </div>
     
-            <div class="folium-map" id="map_641bbb590b42f870d84af7f042c9533b" ></div>
+            <div class="folium-map" id="map_4c5cfa23ee16cc1290375b03e96580d6" ></div>
         
 </body>
 <script>
     
     
-            var map_641bbb590b42f870d84af7f042c9533b = L.map(
-                "map_641bbb590b42f870d84af7f042c9533b",
+            var map_4c5cfa23ee16cc1290375b03e96580d6 = L.map(
+                "map_4c5cfa23ee16cc1290375b03e96580d6",
                 {
                     center: [-2.3, 106.5],
                     crs: L.CRS.EPSG3857,
@@ -107,7 +107,7 @@ font-size: 12px;
 
         
     
-            var tile_layer_dbb5b8312948a10152394fb581664c81 = L.tileLayer(
+            var tile_layer_2adc3164a6b5f0601e910f019d34be4d = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {
   "minZoom": 0,
@@ -124,1614 +124,1545 @@ font-size: 12px;
             );
         
     
-            tile_layer_dbb5b8312948a10152394fb581664c81.addTo(map_641bbb590b42f870d84af7f042c9533b);
+            tile_layer_2adc3164a6b5f0601e910f019d34be4d.addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-            var circle_marker_12398fbf9a2ea4d1d45898706c8fe3df = L.circleMarker(
+            var circle_marker_59ebaf5d9b4d89d512a22c41c7452c1b = L.circleMarker(
+                [-1.97277777777778, 105.872194444444],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7CFC00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
+        
+    
+        var popup_325b4463a0d061e959ad58992a163443 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98fa9f1c6e1a59d79f3bb7929d3b3ec2 = $(`<div id="html_98fa9f1c6e1a59d79f3bb7929d3b3ec2" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : BAKAM<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : BAKAM<br><b>HTH</b> : 1 hari<br><b>Kategori</b> : (1-5 hari) Sangat Pendek</div>`)[0];
+                popup_325b4463a0d061e959ad58992a163443.setContent(html_98fa9f1c6e1a59d79f3bb7929d3b3ec2);
+            
+        
+
+        circle_marker_59ebaf5d9b4d89d512a22c41c7452c1b.bindPopup(popup_325b4463a0d061e959ad58992a163443)
+        ;
+
+        
+    
+    
+            var circle_marker_a741696cea0ab4aa0f3752c4b6b91575 = L.circleMarker(
                 [-1.62830555555556, 105.781388888889],
-                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFA500", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
-        
-    
-        var popup_c4209d8814ae851d0afcba56e4327a19 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_dc2deae45892620f7bf5cf47626db7fd = $(`<div id="html_dc2deae45892620f7bf5cf47626db7fd" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : BUKIT KETOK<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : BELINYU<br><b>HTH</b> : 16 hari<br><b>Kategori</b> : (11-20 hari) Menengah</div>`)[0];
-                popup_c4209d8814ae851d0afcba56e4327a19.setContent(html_dc2deae45892620f7bf5cf47626db7fd);
-            
-        
-
-        circle_marker_12398fbf9a2ea4d1d45898706c8fe3df.bindPopup(popup_c4209d8814ae851d0afcba56e4327a19)
-        ;
-
-        
-    
-    
-            var circle_marker_6e07198f2cef7ad94fdefde044fa4855 = L.circleMarker(
-                [-2.20938888888889, 105.956777777778],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7CFC00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_c27bf783e21a660b48e8a3d2bf9c18f9 = L.popup({
+        var popup_bd7f770c64186d0bf13d506146a08c85 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_b99ef3fbe53aac4dbf523ec48146141a = $(`<div id="html_b99ef3fbe53aac4dbf523ec48146141a" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : RUKAM<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : MENDO BARAT<br><b>HTH</b> : 1 hari<br><b>Kategori</b> : (1-5 hari) Sangat Pendek</div>`)[0];
-                popup_c27bf783e21a660b48e8a3d2bf9c18f9.setContent(html_b99ef3fbe53aac4dbf523ec48146141a);
+                var html_36d5cab9354b7f4b19a9d1d4949959d5 = $(`<div id="html_36d5cab9354b7f4b19a9d1d4949959d5" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : BUKIT KETOK<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : BELINYU<br><b>HTH</b> : 2 hari<br><b>Kategori</b> : (1-5 hari) Sangat Pendek</div>`)[0];
+                popup_bd7f770c64186d0bf13d506146a08c85.setContent(html_36d5cab9354b7f4b19a9d1d4949959d5);
             
         
 
-        circle_marker_6e07198f2cef7ad94fdefde044fa4855.bindPopup(popup_c27bf783e21a660b48e8a3d2bf9c18f9)
+        circle_marker_a741696cea0ab4aa0f3752c4b6b91575.bindPopup(popup_bd7f770c64186d0bf13d506146a08c85)
         ;
 
         
     
     
-            var circle_marker_680bb82f7a96cb65e9d97b6766e4a8e3 = L.circleMarker(
-                [-1.74527777777778, 105.947194444444],
-                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8B4513", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
-        
-    
-        var popup_9173a7415024546e8939721e7afc14c6 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_d9d1afb2f594a6b528fbff14d0960fad = $(`<div id="html_d9d1afb2f594a6b528fbff14d0960fad" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : PUGUL<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : RIAU SILIP<br><b>HTH</b> : 24 hari<br><b>Kategori</b> : (21-30 hari) Panjang</div>`)[0];
-                popup_9173a7415024546e8939721e7afc14c6.setContent(html_d9d1afb2f594a6b528fbff14d0960fad);
-            
-        
-
-        circle_marker_680bb82f7a96cb65e9d97b6766e4a8e3.bindPopup(popup_9173a7415024546e8939721e7afc14c6)
-        ;
-
-        
-    
-    
-            var circle_marker_ecfa3398f5687f170b29e8150494688e = L.circleMarker(
-                [-2.06469444444444, 105.166388888889],
+            var circle_marker_14b625d4d7038c6b15cbfa93fccd4a30 = L.circleMarker(
+                [-2.09830555555556, 105.9095],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7CFC00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_70cd9b88a48f9fb6a6336ae829dd0556 = L.popup({
+        var popup_ebdb1e391ca6e92d8c4efc6194f070be = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_9c7bfed600ce095c90dcfdf86eb52bd4 = $(`<div id="html_9c7bfed600ce095c90dcfdf86eb52bd4" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : MENTOK<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : MENTOK<br><b>HTH</b> : 1 hari<br><b>Kategori</b> : (1-5 hari) Sangat Pendek</div>`)[0];
-                popup_70cd9b88a48f9fb6a6336ae829dd0556.setContent(html_9c7bfed600ce095c90dcfdf86eb52bd4);
+                var html_9f74786ec7291e23ddcd99cc7df29640 = $(`<div id="html_9f74786ec7291e23ddcd99cc7df29640" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA PAYA BENUA<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : MENDO BARAT<br><b>HTH</b> : 1 hari<br><b>Kategori</b> : (1-5 hari) Sangat Pendek</div>`)[0];
+                popup_ebdb1e391ca6e92d8c4efc6194f070be.setContent(html_9f74786ec7291e23ddcd99cc7df29640);
             
         
 
-        circle_marker_ecfa3398f5687f170b29e8150494688e.bindPopup(popup_70cd9b88a48f9fb6a6336ae829dd0556)
+        circle_marker_14b625d4d7038c6b15cbfa93fccd4a30.bindPopup(popup_ebdb1e391ca6e92d8c4efc6194f070be)
         ;
 
         
     
     
-            var circle_marker_140ead3bce13d4874211ba41784318d4 = L.circleMarker(
-                [-2.11691666666667, 105.396388888889],
+            var circle_marker_137fbca0e507873cfc1b5ee16498b771 = L.circleMarker(
+                [-1.86388888888889, 105.577194444444],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7CFC00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_a56e49fba69da4dfdb6eebbfecf3112e = L.popup({
+        var popup_c82245b42b4f91d7ca1980649439ede1 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_bcd4ffc8deac61d1b7303b36435585f8 = $(`<div id="html_bcd4ffc8deac61d1b7303b36435585f8" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : KUNDI<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : SIMPANG TERITIP<br><b>HTH</b> : 1 hari<br><b>Kategori</b> : (1-5 hari) Sangat Pendek</div>`)[0];
-                popup_a56e49fba69da4dfdb6eebbfecf3112e.setContent(html_bcd4ffc8deac61d1b7303b36435585f8);
+                var html_41010b4d745663120d7a7a085c90ad37 = $(`<div id="html_41010b4d745663120d7a7a085c90ad37" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DENDANG BANGKA BARAT<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : KELAPA<br><b>HTH</b> : 2 hari<br><b>Kategori</b> : (1-5 hari) Sangat Pendek</div>`)[0];
+                popup_c82245b42b4f91d7ca1980649439ede1.setContent(html_41010b4d745663120d7a7a085c90ad37);
             
         
 
-        circle_marker_140ead3bce13d4874211ba41784318d4.bindPopup(popup_a56e49fba69da4dfdb6eebbfecf3112e)
+        circle_marker_137fbca0e507873cfc1b5ee16498b771.bindPopup(popup_c82245b42b4f91d7ca1980649439ede1)
         ;
 
         
     
     
-            var circle_marker_a3a2f664dd9bf8120ccefc1831eea674 = L.circleMarker(
-                [-2.07277777777778, 105.667777777778],
+            var circle_marker_05106e49032c598d24ab8023aaa17c23 = L.circleMarker(
+                [-1.88138888888889, 105.677638888889],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7CFC00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_db404f845a1c07820a7f820a9deac9cf = L.popup({
+        var popup_0e86d1bfa22fedd12a2fd405401f65f9 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_f02ec4e2334c2c59ca561b483a115e1e = $(`<div id="html_f02ec4e2334c2c59ca561b483a115e1e" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : TEMPILANG<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : TEMPILANG<br><b>HTH</b> : 1 hari<br><b>Kategori</b> : (1-5 hari) Sangat Pendek</div>`)[0];
-                popup_db404f845a1c07820a7f820a9deac9cf.setContent(html_f02ec4e2334c2c59ca561b483a115e1e);
+                var html_fb91850837a7c7f7362df8b970eb8b4e = $(`<div id="html_fb91850837a7c7f7362df8b970eb8b4e" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : KELAPA<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : KELAPA<br><b>HTH</b> : 1 hari<br><b>Kategori</b> : (1-5 hari) Sangat Pendek</div>`)[0];
+                popup_0e86d1bfa22fedd12a2fd405401f65f9.setContent(html_fb91850837a7c7f7362df8b970eb8b4e);
             
         
 
-        circle_marker_a3a2f664dd9bf8120ccefc1831eea674.bindPopup(popup_db404f845a1c07820a7f820a9deac9cf)
+        circle_marker_05106e49032c598d24ab8023aaa17c23.bindPopup(popup_0e86d1bfa22fedd12a2fd405401f65f9)
         ;
 
         
     
     
-            var circle_marker_7183a2022323e55ed77f226044e5ae9a = L.circleMarker(
-                [-2.71125, 106.511027777778],
-                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
-        
-    
-        var popup_46632a24957590ff3469a839273ce9ea = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_6bf03d9cb318bb72ce7550532e864720 = $(`<div id="html_6bf03d9cb318bb72ce7550532e864720" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : TEPUS<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : AIR GEGAS<br><b>HTH</b> : 9 hari<br><b>Kategori</b> : (6-10 hari) Pendek</div>`)[0];
-                popup_46632a24957590ff3469a839273ce9ea.setContent(html_6bf03d9cb318bb72ce7550532e864720);
-            
-        
-
-        circle_marker_7183a2022323e55ed77f226044e5ae9a.bindPopup(popup_46632a24957590ff3469a839273ce9ea)
-        ;
-
-        
-    
-    
-            var circle_marker_3d3253a3ab0fe50a1d9f4c5487348b61 = L.circleMarker(
-                [-2.8125, 106.133888888889],
-                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
-        
-    
-        var popup_45bbabc6b09409945beb19be5350bd6f = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_ff401b2effdff610ee15a26186f8a13e = $(`<div id="html_ff401b2effdff610ee15a26186f8a13e" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : BATU BETUMPANG<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : PULAU BESAR<br><b>HTH</b> : 9 hari<br><b>Kategori</b> : (6-10 hari) Pendek</div>`)[0];
-                popup_45bbabc6b09409945beb19be5350bd6f.setContent(html_ff401b2effdff610ee15a26186f8a13e);
-            
-        
-
-        circle_marker_3d3253a3ab0fe50a1d9f4c5487348b61.bindPopup(popup_45bbabc6b09409945beb19be5350bd6f)
-        ;
-
-        
-    
-    
-            var circle_marker_91aec825debb04bdab79fa270e55c67e = L.circleMarker(
-                [-2.97027777777778, 106.441277777778],
+            var circle_marker_e18bbc087de394762c98624d3e40bab3 = L.circleMarker(
+                [-1.64458333333333, 105.507277777778],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7CFC00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_bde3b1c7e86532d211abffc3899b050e = L.popup({
+        var popup_18e242c22397ca2e72ce7dd25f901aae = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_f1fd0433e52fc1192dda2b77354993ff = $(`<div id="html_f1fd0433e52fc1192dda2b77354993ff" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : RIAS<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : TOBOALI<br><b>HTH</b> : 2 hari<br><b>Kategori</b> : (1-5 hari) Sangat Pendek</div>`)[0];
-                popup_bde3b1c7e86532d211abffc3899b050e.setContent(html_f1fd0433e52fc1192dda2b77354993ff);
+                var html_d6e13828b0919f983324791e1b46378e = $(`<div id="html_d6e13828b0919f983324791e1b46378e" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : PARIT TIGA<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : PARIT TIGA<br><b>HTH</b> : 2 hari<br><b>Kategori</b> : (1-5 hari) Sangat Pendek</div>`)[0];
+                popup_18e242c22397ca2e72ce7dd25f901aae.setContent(html_d6e13828b0919f983324791e1b46378e);
             
         
 
-        circle_marker_91aec825debb04bdab79fa270e55c67e.bindPopup(popup_bde3b1c7e86532d211abffc3899b050e)
+        circle_marker_e18bbc087de394762c98624d3e40bab3.bindPopup(popup_18e242c22397ca2e72ce7dd25f901aae)
         ;
 
         
     
     
-            var circle_marker_58b1d379b66521271c18b7083f542f44 = L.circleMarker(
+            var circle_marker_860636d9dd41f7b07b17f9b52ce80970 = L.circleMarker(
+                [-1.67719444444444, 105.568583333333],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7CFC00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
+        
+    
+        var popup_d238aa18b1621bf39d4130bcf6361944 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d891ac04b6389419fa2469a0cc70a47 = $(`<div id="html_3d891ac04b6389419fa2469a0cc70a47" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : TELAK<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : PARIT TIGA<br><b>HTH</b> : 2 hari<br><b>Kategori</b> : (1-5 hari) Sangat Pendek</div>`)[0];
+                popup_d238aa18b1621bf39d4130bcf6361944.setContent(html_3d891ac04b6389419fa2469a0cc70a47);
+            
+        
+
+        circle_marker_860636d9dd41f7b07b17f9b52ce80970.bindPopup(popup_d238aa18b1621bf39d4130bcf6361944)
+        ;
+
+        
+    
+    
+            var circle_marker_5e342943519bff27daab7b3cdc4c0719 = L.circleMarker(
+                [-2.61880555555556, 105.901805555556],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7CFC00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
+        
+    
+        var popup_4f155de6595bbf46351a9693f92f19d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5449a5c612b69438939c37683e541baf = $(`<div id="html_5449a5c612b69438939c37683e541baf" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA SEBAGIN<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : SIMPANG RIMBA<br><b>HTH</b> : 2 hari<br><b>Kategori</b> : (1-5 hari) Sangat Pendek</div>`)[0];
+                popup_4f155de6595bbf46351a9693f92f19d4.setContent(html_5449a5c612b69438939c37683e541baf);
+            
+        
+
+        circle_marker_5e342943519bff27daab7b3cdc4c0719.bindPopup(popup_4f155de6595bbf46351a9693f92f19d4)
+        ;
+
+        
+    
+    
+            var circle_marker_8dec5f1078e8ce8635d66a6e316f3b91 = L.circleMarker(
                 [-3.01630555555556, 106.739],
-                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
-        
-    
-        var popup_670599faa020587ec8ba2affb55b9ebf = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_2226e27b5e9ee062e5f99d9e44d90dd9 = $(`<div id="html_2226e27b5e9ee062e5f99d9e44d90dd9" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : SADAI<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : TUKAK SADAI<br><b>HTH</b> : 7 hari<br><b>Kategori</b> : (6-10 hari) Pendek</div>`)[0];
-                popup_670599faa020587ec8ba2affb55b9ebf.setContent(html_2226e27b5e9ee062e5f99d9e44d90dd9);
-            
-        
-
-        circle_marker_58b1d379b66521271c18b7083f542f44.bindPopup(popup_670599faa020587ec8ba2affb55b9ebf)
-        ;
-
-        
-    
-    
-            var circle_marker_b19cac689c9180371883f2d14cc2423e = L.circleMarker(
-                [-2.32666666666667, 106.143583333333],
-                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
-        
-    
-        var popup_a8e89f2fc231b91407f4b5cdb051d308 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_6bcf3a0cb0e2cd620ccb95e1a62ec478 = $(`<div id="html_6bcf3a0cb0e2cd620ccb95e1a62ec478" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : CELUAK<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : SIMPANG KATIS<br><b>HTH</b> : 9 hari<br><b>Kategori</b> : (6-10 hari) Pendek</div>`)[0];
-                popup_a8e89f2fc231b91407f4b5cdb051d308.setContent(html_6bcf3a0cb0e2cd620ccb95e1a62ec478);
-            
-        
-
-        circle_marker_b19cac689c9180371883f2d14cc2423e.bindPopup(popup_a8e89f2fc231b91407f4b5cdb051d308)
-        ;
-
-        
-    
-    
-            var circle_marker_06a9c4edc1e6ea907eee41ca98e8acd3 = L.circleMarker(
-                [-2.45830555555556, 106.132388888889],
-                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
-        
-    
-        var popup_e3942553762d4a647e9b4ea9724091f4 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_2137a5630e0f8a842e62856f20451da1 = $(`<div id="html_2137a5630e0f8a842e62856f20451da1" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : KEMINGKING<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : SUNGAI SELAN<br><b>HTH</b> : 9 hari<br><b>Kategori</b> : (6-10 hari) Pendek</div>`)[0];
-                popup_e3942553762d4a647e9b4ea9724091f4.setContent(html_2137a5630e0f8a842e62856f20451da1);
-            
-        
-
-        circle_marker_06a9c4edc1e6ea907eee41ca98e8acd3.bindPopup(popup_e3942553762d4a647e9b4ea9724091f4)
-        ;
-
-        
-    
-    
-            var circle_marker_80d96145818745cd0318c492adf861f8 = L.circleMarker(
-                [-2.36858333333333, 105.999416666667],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7CFC00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_d4b297e122931d9776aab689409a1078 = L.popup({
+        var popup_9445ad8c03821595bb8e83bc333587cf = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_9511b7a4b2c83f3315147dfffc3d4351 = $(`<div id="html_9511b7a4b2c83f3315147dfffc3d4351" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : SUNGAI SELAN<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : SUNGAI SELAN<br><b>HTH</b> : 1 hari<br><b>Kategori</b> : (1-5 hari) Sangat Pendek</div>`)[0];
-                popup_d4b297e122931d9776aab689409a1078.setContent(html_9511b7a4b2c83f3315147dfffc3d4351);
+                var html_65d2c9fbc7b4b843b20e234464bc6653 = $(`<div id="html_65d2c9fbc7b4b843b20e234464bc6653" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : SADAI<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : TUKAK SADAI<br><b>HTH</b> : 2 hari<br><b>Kategori</b> : (1-5 hari) Sangat Pendek</div>`)[0];
+                popup_9445ad8c03821595bb8e83bc333587cf.setContent(html_65d2c9fbc7b4b843b20e234464bc6653);
             
         
 
-        circle_marker_80d96145818745cd0318c492adf861f8.bindPopup(popup_d4b297e122931d9776aab689409a1078)
+        circle_marker_8dec5f1078e8ce8635d66a6e316f3b91.bindPopup(popup_9445ad8c03821595bb8e83bc333587cf)
         ;
 
         
     
     
-            var circle_marker_687e8645a7d655f215da2b423a7cdbcf = L.circleMarker(
-                [-2.36958333333333, 105.816611111111],
-                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFA500", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
-        
-    
-        var popup_7ed5b5e60abd36efc2b5ce09d30ad6b8 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_43f11d578de81a392c48d8f907a5d42e = $(`<div id="html_43f11d578de81a392c48d8f907a5d42e" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : TANJUNG PURA<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : SUNGAI SELAN<br><b>HTH</b> : 12 hari<br><b>Kategori</b> : (11-20 hari) Menengah</div>`)[0];
-                popup_7ed5b5e60abd36efc2b5ce09d30ad6b8.setContent(html_43f11d578de81a392c48d8f907a5d42e);
-            
-        
-
-        circle_marker_687e8645a7d655f215da2b423a7cdbcf.bindPopup(popup_7ed5b5e60abd36efc2b5ce09d30ad6b8)
-        ;
-
-        
-    
-    
-            var circle_marker_e9543aab97a9dd940e45a3dbcf127aaf = L.circleMarker(
-                [-2.80866666666667, 107.774805555556],
+            var circle_marker_67f059f1b4095cfaf789e5324372d6b2 = L.circleMarker(
+                [-2.85430555555556, 107.598555555556],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7CFC00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_893242370372966eaa4226e383afe652 = L.popup({
+        var popup_703ca0d2815da85242f1d171ae53c793 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_8fcac7af2294a7d4c417fda0543720f3 = $(`<div id="html_8fcac7af2294a7d4c417fda0543720f3" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : BADAU<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : BADAU<br><b>HTH</b> : 1 hari<br><b>Kategori</b> : (1-5 hari) Sangat Pendek</div>`)[0];
-                popup_893242370372966eaa4226e383afe652.setContent(html_8fcac7af2294a7d4c417fda0543720f3);
+                var html_0b1e114a44f1e70e2de4e314beba0493 = $(`<div id="html_0b1e114a44f1e70e2de4e314beba0493" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : SUNGAI SAMAK<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : BADAU<br><b>HTH</b> : 2 hari<br><b>Kategori</b> : (1-5 hari) Sangat Pendek</div>`)[0];
+                popup_703ca0d2815da85242f1d171ae53c793.setContent(html_0b1e114a44f1e70e2de4e314beba0493);
             
         
 
-        circle_marker_e9543aab97a9dd940e45a3dbcf127aaf.bindPopup(popup_893242370372966eaa4226e383afe652)
+        circle_marker_67f059f1b4095cfaf789e5324372d6b2.bindPopup(popup_703ca0d2815da85242f1d171ae53c793)
         ;
 
         
     
     
-            var circle_marker_0bc4f26799ccc8e6545f752057ec157d = L.circleMarker(
-                [-2.89447222222222, 107.566972222222],
+            var circle_marker_3cb22b8da7c0435916bf31fca2f740be = L.circleMarker(
+                [-2.71552777777778, 107.641694444444],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7CFC00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_05b59f37ecb5c3088e4aee981fb94e28 = L.popup({
+        var popup_07e269880d7891baf43fc3b540222383 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_5d0afd1e0836a53293117c7ba9f13f57 = $(`<div id="html_5d0afd1e0836a53293117c7ba9f13f57" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : PEGANTUNGAN<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : BADAU<br><b>HTH</b> : 1 hari<br><b>Kategori</b> : (1-5 hari) Sangat Pendek</div>`)[0];
-                popup_05b59f37ecb5c3088e4aee981fb94e28.setContent(html_5d0afd1e0836a53293117c7ba9f13f57);
+                var html_1887f9ffbfe7e9c8bfca14b40370e98e = $(`<div id="html_1887f9ffbfe7e9c8bfca14b40370e98e" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : AIR SAGA<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : TANJUNGPANDAN<br><b>HTH</b> : 2 hari<br><b>Kategori</b> : (1-5 hari) Sangat Pendek</div>`)[0];
+                popup_07e269880d7891baf43fc3b540222383.setContent(html_1887f9ffbfe7e9c8bfca14b40370e98e);
             
         
 
-        circle_marker_0bc4f26799ccc8e6545f752057ec157d.bindPopup(popup_05b59f37ecb5c3088e4aee981fb94e28)
+        circle_marker_3cb22b8da7c0435916bf31fca2f740be.bindPopup(popup_07e269880d7891baf43fc3b540222383)
         ;
 
         
     
     
-            var circle_marker_98153e1c3d29a425ea044b56ecaa36f8 = L.circleMarker(
+            var circle_marker_a6e9c05a0e5066ad3289f09e346d19da = L.circleMarker(
                 [-3.067, 107.901972222222],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7CFC00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_88090351dd49f25595401a1d3f3ab773 = L.popup({
+        var popup_d56b1c6861ed8acf9c946e757644a9b3 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_d0016b456a9915342251cbb0f9af1ae7 = $(`<div id="html_d0016b456a9915342251cbb0f9af1ae7" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DENDANG BELTIM<br><b>Kabupaten</b> : BELITUNG TIMUR<br><b>Kecamatan</b> : DENDANG BELTIM<br><b>HTH</b> : 2 hari<br><b>Kategori</b> : (1-5 hari) Sangat Pendek</div>`)[0];
-                popup_88090351dd49f25595401a1d3f3ab773.setContent(html_d0016b456a9915342251cbb0f9af1ae7);
+                var html_a1a24c741ab8235f4d412bf219afbe51 = $(`<div id="html_a1a24c741ab8235f4d412bf219afbe51" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DENDANG BELTIM<br><b>Kabupaten</b> : BELITUNG TIMUR<br><b>Kecamatan</b> : DENDANG BELTIM<br><b>HTH</b> : 2 hari<br><b>Kategori</b> : (1-5 hari) Sangat Pendek</div>`)[0];
+                popup_d56b1c6861ed8acf9c946e757644a9b3.setContent(html_a1a24c741ab8235f4d412bf219afbe51);
             
         
 
-        circle_marker_98153e1c3d29a425ea044b56ecaa36f8.bindPopup(popup_88090351dd49f25595401a1d3f3ab773)
+        circle_marker_a6e9c05a0e5066ad3289f09e346d19da.bindPopup(popup_d56b1c6861ed8acf9c946e757644a9b3)
         ;
 
         
     
     
-            var circle_marker_1030dd7a0789cc2e3c6d283653a03b6a = L.circleMarker(
-                [-2.86580555555556, 108.278888888889],
-                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFFF00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
-        
-    
-        var popup_572436a57bc77b9d4b0aaacfa2bc2655 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_da35eb9fc5d19072e27d4b974a442255 = $(`<div id="html_da35eb9fc5d19072e27d4b974a442255" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : LALANG<br><b>Kabupaten</b> : BELITUNG TIMUR<br><b>Kecamatan</b> : MANGGAR<br><b>HTH</b> : 8 hari<br><b>Kategori</b> : (6-10 hari) Pendek</div>`)[0];
-                popup_572436a57bc77b9d4b0aaacfa2bc2655.setContent(html_da35eb9fc5d19072e27d4b974a442255);
-            
-        
-
-        circle_marker_1030dd7a0789cc2e3c6d283653a03b6a.bindPopup(popup_572436a57bc77b9d4b0aaacfa2bc2655)
-        ;
-
-        
-    
-    
-            var circle_marker_de89eedad88f99ff929bc100872c3acf = L.circleMarker(
-                [-1.97277777777778, 105.872194444444],
-                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
-        
-    
-        var popup_d607b560fca8655ebd83bc0a27500689 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_110c4bdc089e225fc418401bc1cd9e12 = $(`<div id="html_110c4bdc089e225fc418401bc1cd9e12" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : BAKAM<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : BAKAM<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_d607b560fca8655ebd83bc0a27500689.setContent(html_110c4bdc089e225fc418401bc1cd9e12);
-            
-        
-
-        circle_marker_de89eedad88f99ff929bc100872c3acf.bindPopup(popup_d607b560fca8655ebd83bc0a27500689)
-        ;
-
-        
-    
-    
-            var circle_marker_7cd44a459c31f5d8a674ae4d2ababf28 = L.circleMarker(
+            var circle_marker_7ffe66031cd51c561ec6f2a566eb7079 = L.circleMarker(
                 [-1.55730555555556, 105.848805555556],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_9dad9b00f85f6c183f3383d312f4f757 = L.popup({
+        var popup_9cbbafe4b062a6b02aa720bcf95c1f1b = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_19853d29a38374bb88bac21de5f9728d = $(`<div id="html_19853d29a38374bb88bac21de5f9728d" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA BINTET<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : BELINYU<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_9dad9b00f85f6c183f3383d312f4f757.setContent(html_19853d29a38374bb88bac21de5f9728d);
+                var html_e48613987fc2a538c58efc8952cb5cb4 = $(`<div id="html_e48613987fc2a538c58efc8952cb5cb4" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA BINTET<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : BELINYU<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_9cbbafe4b062a6b02aa720bcf95c1f1b.setContent(html_e48613987fc2a538c58efc8952cb5cb4);
             
         
 
-        circle_marker_7cd44a459c31f5d8a674ae4d2ababf28.bindPopup(popup_9dad9b00f85f6c183f3383d312f4f757)
+        circle_marker_7ffe66031cd51c561ec6f2a566eb7079.bindPopup(popup_9cbbafe4b062a6b02aa720bcf95c1f1b)
         ;
 
         
     
     
-            var circle_marker_69a7005cb2da53f0f4b137eb466ae6b5 = L.circleMarker(
-                [-2.09830555555556, 105.9095],
-                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
-        
-    
-        var popup_06512aaad51fc93aedecbd0b23a2543b = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_3027602b6b8085d2594e8b46c9bf10ca = $(`<div id="html_3027602b6b8085d2594e8b46c9bf10ca" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA PAYA BENUA<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : MENDO BARAT<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_06512aaad51fc93aedecbd0b23a2543b.setContent(html_3027602b6b8085d2594e8b46c9bf10ca);
-            
-        
-
-        circle_marker_69a7005cb2da53f0f4b137eb466ae6b5.bindPopup(popup_06512aaad51fc93aedecbd0b23a2543b)
-        ;
-
-        
-    
-    
-            var circle_marker_226b532f9f11d3a62d2d2e4035b5eaed = L.circleMarker(
+            var circle_marker_e8cba4a236162048b52d87508a813f38 = L.circleMarker(
                 [-2.13580555555556, 106.087777777778],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_c52f247f3a94bd1497f492a8a5977a91 = L.popup({
+        var popup_684deb118076a7e08a73cd70ff2afb10 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_d1f2c386ec20313f43dc158c2fc80152 = $(`<div id="html_d1f2c386ec20313f43dc158c2fc80152" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : KACE<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : MENDO BARAT<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_c52f247f3a94bd1497f492a8a5977a91.setContent(html_d1f2c386ec20313f43dc158c2fc80152);
+                var html_9c25f9fd8ad2e848ee49478264665fe1 = $(`<div id="html_9c25f9fd8ad2e848ee49478264665fe1" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : KACE<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : MENDO BARAT<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_684deb118076a7e08a73cd70ff2afb10.setContent(html_9c25f9fd8ad2e848ee49478264665fe1);
             
         
 
-        circle_marker_226b532f9f11d3a62d2d2e4035b5eaed.bindPopup(popup_c52f247f3a94bd1497f492a8a5977a91)
+        circle_marker_e8cba4a236162048b52d87508a813f38.bindPopup(popup_684deb118076a7e08a73cd70ff2afb10)
         ;
 
         
     
     
-            var circle_marker_eb7b9007896cd7e230c82c730af1be64 = L.circleMarker(
+            var circle_marker_f6c1cbaeb6b25e6ca42782f832fba66f = L.circleMarker(
+                [-2.20938888888889, 105.956777777778],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
+        
+    
+        var popup_f51a341ceb014b046e227ccb69f21dad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cdfb11f259e718f77bec0a76591aa4be = $(`<div id="html_cdfb11f259e718f77bec0a76591aa4be" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : RUKAM<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : MENDO BARAT<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_f51a341ceb014b046e227ccb69f21dad.setContent(html_cdfb11f259e718f77bec0a76591aa4be);
+            
+        
+
+        circle_marker_f6c1cbaeb6b25e6ca42782f832fba66f.bindPopup(popup_f51a341ceb014b046e227ccb69f21dad)
+        ;
+
+        
+    
+    
+            var circle_marker_673ea8c753f334b8bb10fc3e058986d5 = L.circleMarker(
                 [-2.02616666666667, 106.112],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_50651acdf541d36ede30667f1d87ead5 = L.popup({
+        var popup_01bd87bab189091889b8bb2e5377af6d = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_8d81c07d08c87f72dc31ee051c281e36 = $(`<div id="html_8d81c07d08c87f72dc31ee051c281e36" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : BATU RUSA<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : MERAWANG<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_50651acdf541d36ede30667f1d87ead5.setContent(html_8d81c07d08c87f72dc31ee051c281e36);
+                var html_24cd062cb8e3f97de05093e02f0f5705 = $(`<div id="html_24cd062cb8e3f97de05093e02f0f5705" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : BATU RUSA<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : MERAWANG<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_01bd87bab189091889b8bb2e5377af6d.setContent(html_24cd062cb8e3f97de05093e02f0f5705);
             
         
 
-        circle_marker_eb7b9007896cd7e230c82c730af1be64.bindPopup(popup_50651acdf541d36ede30667f1d87ead5)
+        circle_marker_673ea8c753f334b8bb10fc3e058986d5.bindPopup(popup_01bd87bab189091889b8bb2e5377af6d)
         ;
 
         
     
     
-            var circle_marker_b010abb37844068d2219ad53e3e8829d = L.circleMarker(
+            var circle_marker_a50fc0a49082fe39f0d702c143938925 = L.circleMarker(
                 [-1.89858333333333, 106.056666666667],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_62a397e50cf4b1ffb8309650d69f55b9 = L.popup({
+        var popup_ce1ab481441c7a61687f5aed426f671e = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_a0f0dcef2309b6da90e3975d2e925d55 = $(`<div id="html_a0f0dcef2309b6da90e3975d2e925d55" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : PEMALI<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : PEMALI<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_62a397e50cf4b1ffb8309650d69f55b9.setContent(html_a0f0dcef2309b6da90e3975d2e925d55);
+                var html_a2e868bc5a081f93e54c3fc43bbed9f7 = $(`<div id="html_a2e868bc5a081f93e54c3fc43bbed9f7" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : PEMALI<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : PEMALI<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_ce1ab481441c7a61687f5aed426f671e.setContent(html_a2e868bc5a081f93e54c3fc43bbed9f7);
             
         
 
-        circle_marker_b010abb37844068d2219ad53e3e8829d.bindPopup(popup_62a397e50cf4b1ffb8309650d69f55b9)
+        circle_marker_a50fc0a49082fe39f0d702c143938925.bindPopup(popup_ce1ab481441c7a61687f5aed426f671e)
         ;
 
         
     
     
-            var circle_marker_456babfb32d8ea0c5214c9bb6ada2a24 = L.circleMarker(
-                [-1.83536111111111, 105.833333333333],
-                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
-        
-    
-        var popup_bcf52b1cdd89f713a2eab65ee6bd51ee = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_eae8058309e3c133bfa08205ea45f28e = $(`<div id="html_eae8058309e3c133bfa08205ea45f28e" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA BERBURA<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : RIAU SILIP<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_bcf52b1cdd89f713a2eab65ee6bd51ee.setContent(html_eae8058309e3c133bfa08205ea45f28e);
-            
-        
-
-        circle_marker_456babfb32d8ea0c5214c9bb6ada2a24.bindPopup(popup_bcf52b1cdd89f713a2eab65ee6bd51ee)
-        ;
-
-        
-    
-    
-            var circle_marker_59bc79d2506be77b50d93dcae2704f9d = L.circleMarker(
+            var circle_marker_8d914effd2cee3eecf6bd4a4a1d56d18 = L.circleMarker(
                 [-1.68061111111111, 105.9825],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_6a4bb4aabca21db169de75073a162f1d = L.popup({
+        var popup_6dd2c408bc6931d1e49295c0d1676234 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_0b4a42853a123e55df1299a5e22300a8 = $(`<div id="html_0b4a42853a123e55df1299a5e22300a8" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : MAPUR<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : RIAU SILIP<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_6a4bb4aabca21db169de75073a162f1d.setContent(html_0b4a42853a123e55df1299a5e22300a8);
+                var html_c6a8217e90641c3aba211eb0343a5d7b = $(`<div id="html_c6a8217e90641c3aba211eb0343a5d7b" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : MAPUR<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : RIAU SILIP<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_6dd2c408bc6931d1e49295c0d1676234.setContent(html_c6a8217e90641c3aba211eb0343a5d7b);
             
         
 
-        circle_marker_59bc79d2506be77b50d93dcae2704f9d.bindPopup(popup_6a4bb4aabca21db169de75073a162f1d)
+        circle_marker_8d914effd2cee3eecf6bd4a4a1d56d18.bindPopup(popup_6dd2c408bc6931d1e49295c0d1676234)
         ;
 
         
     
     
-            var circle_marker_69873f16769d8bfd798582a6a9d78284 = L.circleMarker(
+            var circle_marker_8366b906fb974fed25b3ecc6371b876d = L.circleMarker(
+                [-1.74527777777778, 105.947194444444],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
+        
+    
+        var popup_a1bba75bcf574fb07752c93508a02fcb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba358b1bf5282129c3873752022eae31 = $(`<div id="html_ba358b1bf5282129c3873752022eae31" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : PUGUL<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : RIAU SILIP<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_a1bba75bcf574fb07752c93508a02fcb.setContent(html_ba358b1bf5282129c3873752022eae31);
+            
+        
+
+        circle_marker_8366b906fb974fed25b3ecc6371b876d.bindPopup(popup_a1bba75bcf574fb07752c93508a02fcb)
+        ;
+
+        
+    
+    
+            var circle_marker_74e3e50e5438a16128076e272e89e7ba = L.circleMarker(
                 [-1.88555555555556, 106.102194444444],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_727de48ceda89dbd2256f4b56cf3814f = L.popup({
+        var popup_0522059b5d2fbeaefc1d6e8f51e171c8 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_878cda928f8dc558ef3e712448dfc775 = $(`<div id="html_878cda928f8dc558ef3e712448dfc775" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : SUNGAI LIAT<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : SUNGAI LIAT<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_727de48ceda89dbd2256f4b56cf3814f.setContent(html_878cda928f8dc558ef3e712448dfc775);
+                var html_4b0aed70bc1508028c7082b8a7b3bd31 = $(`<div id="html_4b0aed70bc1508028c7082b8a7b3bd31" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : SUNGAI LIAT<br><b>Kabupaten</b> : BANGKA<br><b>Kecamatan</b> : SUNGAI LIAT<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_0522059b5d2fbeaefc1d6e8f51e171c8.setContent(html_4b0aed70bc1508028c7082b8a7b3bd31);
             
         
 
-        circle_marker_69873f16769d8bfd798582a6a9d78284.bindPopup(popup_727de48ceda89dbd2256f4b56cf3814f)
+        circle_marker_74e3e50e5438a16128076e272e89e7ba.bindPopup(popup_0522059b5d2fbeaefc1d6e8f51e171c8)
         ;
 
         
     
     
-            var circle_marker_8b346d697b6d6ec6ad3444325e22a215 = L.circleMarker(
+            var circle_marker_d9fc8c91afcaaebd63ee78815726e42e = L.circleMarker(
                 [-1.74305555555556, 105.454416666667],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_3941f92527df27ad32491ed35112bfc8 = L.popup({
+        var popup_15943ce591a827684c8ad1960cff59da = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_92f2e9234b6f1e513abc253cc195a047 = $(`<div id="html_92f2e9234b6f1e513abc253cc195a047" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : JEBUS<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : JEBUS<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_3941f92527df27ad32491ed35112bfc8.setContent(html_92f2e9234b6f1e513abc253cc195a047);
+                var html_8f311fdba0f04182b1ce31197eac25f4 = $(`<div id="html_8f311fdba0f04182b1ce31197eac25f4" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : JEBUS<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : JEBUS<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_15943ce591a827684c8ad1960cff59da.setContent(html_8f311fdba0f04182b1ce31197eac25f4);
             
         
 
-        circle_marker_8b346d697b6d6ec6ad3444325e22a215.bindPopup(popup_3941f92527df27ad32491ed35112bfc8)
+        circle_marker_d9fc8c91afcaaebd63ee78815726e42e.bindPopup(popup_15943ce591a827684c8ad1960cff59da)
         ;
 
         
     
     
-            var circle_marker_d1ba7acbad5d9c29365c5cc5a781cec3 = L.circleMarker(
-                [-1.86388888888889, 105.577194444444],
+            var circle_marker_ab7af0ab90279e8d81473e7bfc1e33dc = L.circleMarker(
+                [-2.06469444444444, 105.166388888889],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_a39eaac22af1a8f0b4ae5dcec60e4380 = L.popup({
+        var popup_469a25ad295f5291a20432bd8e7cc1fa = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_ac179e04f982110a31eadcd023104207 = $(`<div id="html_ac179e04f982110a31eadcd023104207" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DENDANG BANGKA BARAT<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : KELAPA<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_a39eaac22af1a8f0b4ae5dcec60e4380.setContent(html_ac179e04f982110a31eadcd023104207);
+                var html_44d617d64dc35303d06afee81433d272 = $(`<div id="html_44d617d64dc35303d06afee81433d272" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : MENTOK<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : MENTOK<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_469a25ad295f5291a20432bd8e7cc1fa.setContent(html_44d617d64dc35303d06afee81433d272);
             
         
 
-        circle_marker_d1ba7acbad5d9c29365c5cc5a781cec3.bindPopup(popup_a39eaac22af1a8f0b4ae5dcec60e4380)
+        circle_marker_ab7af0ab90279e8d81473e7bfc1e33dc.bindPopup(popup_469a25ad295f5291a20432bd8e7cc1fa)
         ;
 
         
     
     
-            var circle_marker_7ee8bb8ecba461792e138af4c52ebee2 = L.circleMarker(
-                [-1.88138888888889, 105.677638888889],
-                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
-        
-    
-        var popup_c2f95071359221a19c73703e94597d84 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_f78346f7c885dadc9af8d7b805796dd7 = $(`<div id="html_f78346f7c885dadc9af8d7b805796dd7" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : KELAPA<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : KELAPA<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_c2f95071359221a19c73703e94597d84.setContent(html_f78346f7c885dadc9af8d7b805796dd7);
-            
-        
-
-        circle_marker_7ee8bb8ecba461792e138af4c52ebee2.bindPopup(popup_c2f95071359221a19c73703e94597d84)
-        ;
-
-        
-    
-    
-            var circle_marker_91f3d53484949916f795f996d1fc7d5c = L.circleMarker(
-                [-1.64458333333333, 105.507277777778],
-                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
-        
-    
-        var popup_036ae05f60cba851569a3f24e793d9c4 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_5f69ac81b91fe0dfa4296abe30408568 = $(`<div id="html_5f69ac81b91fe0dfa4296abe30408568" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : PARIT TIGA<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : PARIT TIGA<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_036ae05f60cba851569a3f24e793d9c4.setContent(html_5f69ac81b91fe0dfa4296abe30408568);
-            
-        
-
-        circle_marker_91f3d53484949916f795f996d1fc7d5c.bindPopup(popup_036ae05f60cba851569a3f24e793d9c4)
-        ;
-
-        
-    
-    
-            var circle_marker_a7a9f0b270aa581a09223f8ff9497e69 = L.circleMarker(
-                [-1.67719444444444, 105.568583333333],
-                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
-        
-    
-        var popup_723c9eeddb40446763d51d2d4fd5f344 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_edf347d35637bfb5c038d140dc1dc440 = $(`<div id="html_edf347d35637bfb5c038d140dc1dc440" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : TELAK<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : PARIT TIGA<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_723c9eeddb40446763d51d2d4fd5f344.setContent(html_edf347d35637bfb5c038d140dc1dc440);
-            
-        
-
-        circle_marker_a7a9f0b270aa581a09223f8ff9497e69.bindPopup(popup_723c9eeddb40446763d51d2d4fd5f344)
-        ;
-
-        
-    
-    
-            var circle_marker_36ac7dc50285285e5f775ba0a4b6871a = L.circleMarker(
+            var circle_marker_556e60267578e197f71235d23f42bc4d = L.circleMarker(
                 [-1.99886111111111, 105.3815],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_ba366ae3937069149589ba51b7f80853 = L.popup({
+        var popup_9d93c3316b3c4a1c8c297aaf0caeab59 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_33299e855b542ca102bfc6d23f751412 = $(`<div id="html_33299e855b542ca102bfc6d23f751412" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA SIMPANG TIGA<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : SIMPANG TERITIP<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_ba366ae3937069149589ba51b7f80853.setContent(html_33299e855b542ca102bfc6d23f751412);
+                var html_8f19f1f3bd903384e7286ab015c56ef1 = $(`<div id="html_8f19f1f3bd903384e7286ab015c56ef1" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA SIMPANG TIGA<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : SIMPANG TERITIP<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_9d93c3316b3c4a1c8c297aaf0caeab59.setContent(html_8f19f1f3bd903384e7286ab015c56ef1);
             
         
 
-        circle_marker_36ac7dc50285285e5f775ba0a4b6871a.bindPopup(popup_ba366ae3937069149589ba51b7f80853)
+        circle_marker_556e60267578e197f71235d23f42bc4d.bindPopup(popup_9d93c3316b3c4a1c8c297aaf0caeab59)
         ;
 
         
     
     
-            var circle_marker_0837d7646f29fb8178660a0b428bbd78 = L.circleMarker(
+            var circle_marker_fda19ea11524b57a136d9416cee05a21 = L.circleMarker(
+                [-2.11691666666667, 105.396388888889],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
+        
+    
+        var popup_2a4f15c6152a6d90da0e6fbd2a4b999e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5f19826250dc2799e6aab8ece5568fb = $(`<div id="html_e5f19826250dc2799e6aab8ece5568fb" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : KUNDI<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : SIMPANG TERITIP<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_2a4f15c6152a6d90da0e6fbd2a4b999e.setContent(html_e5f19826250dc2799e6aab8ece5568fb);
+            
+        
+
+        circle_marker_fda19ea11524b57a136d9416cee05a21.bindPopup(popup_2a4f15c6152a6d90da0e6fbd2a4b999e)
+        ;
+
+        
+    
+    
+            var circle_marker_3b0809726d82321b770c5786b755fd74 = L.circleMarker(
                 [-1.97108333333333, 105.291388888889],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_82b1f7362550e0cf1e0c3d8fd2e9ac74 = L.popup({
+        var popup_04630583ce613702e75a39184cbbd0fc = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_4fc3b701c4621b4f350129a87b2353b7 = $(`<div id="html_4fc3b701c4621b4f350129a87b2353b7" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : MAYANG<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : SIMPANG TERITIP<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_82b1f7362550e0cf1e0c3d8fd2e9ac74.setContent(html_4fc3b701c4621b4f350129a87b2353b7);
+                var html_b4c8bb5f305c660e268077d21fdf6a19 = $(`<div id="html_b4c8bb5f305c660e268077d21fdf6a19" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : MAYANG<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : SIMPANG TERITIP<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_04630583ce613702e75a39184cbbd0fc.setContent(html_b4c8bb5f305c660e268077d21fdf6a19);
             
         
 
-        circle_marker_0837d7646f29fb8178660a0b428bbd78.bindPopup(popup_82b1f7362550e0cf1e0c3d8fd2e9ac74)
+        circle_marker_3b0809726d82321b770c5786b755fd74.bindPopup(popup_04630583ce613702e75a39184cbbd0fc)
         ;
 
         
     
     
-            var circle_marker_c74c84e2b7f62d272cde6e3865ba68a0 = L.circleMarker(
+            var circle_marker_bf310acbdcc10d596acc2f246a4928bc = L.circleMarker(
                 [-1.92027777777778, 105.378305555556],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_314d32404228d0fac0874e7d5599a712 = L.popup({
+        var popup_bd7a35493511ac95c410af0b776aa089 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_21fa8363de59eb267eba903620f6da70 = $(`<div id="html_21fa8363de59eb267eba903620f6da70" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : SIMPANG TRITIP<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : SIMPANG TERITIP<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_314d32404228d0fac0874e7d5599a712.setContent(html_21fa8363de59eb267eba903620f6da70);
+                var html_3402cfcf8bc3c1c50e6d6e978b517d88 = $(`<div id="html_3402cfcf8bc3c1c50e6d6e978b517d88" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : SIMPANG TRITIP<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : SIMPANG TERITIP<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_bd7a35493511ac95c410af0b776aa089.setContent(html_3402cfcf8bc3c1c50e6d6e978b517d88);
             
         
 
-        circle_marker_c74c84e2b7f62d272cde6e3865ba68a0.bindPopup(popup_314d32404228d0fac0874e7d5599a712)
+        circle_marker_bf310acbdcc10d596acc2f246a4928bc.bindPopup(popup_bd7a35493511ac95c410af0b776aa089)
         ;
 
         
     
     
-            var circle_marker_ff53a4393fe620b28517bf6214a40a28 = L.circleMarker(
+            var circle_marker_c9a1aea7c911f3e42b40785e6c3143e7 = L.circleMarker(
                 [-1.994, 105.645],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_c05b6904fe8d48d2d1be0388d1102dcc = L.popup({
+        var popup_0bf1e9be6f273fb3ff75cd86df466e99 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_e65ed2a2e1c51750834627a1a4d0895a = $(`<div id="html_e65ed2a2e1c51750834627a1a4d0895a" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA PENYAMPAK<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : TEMPILANG<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_c05b6904fe8d48d2d1be0388d1102dcc.setContent(html_e65ed2a2e1c51750834627a1a4d0895a);
+                var html_b26d4df9b3c3f63c5f5a7f98e71e73cf = $(`<div id="html_b26d4df9b3c3f63c5f5a7f98e71e73cf" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA PENYAMPAK<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : TEMPILANG<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_0bf1e9be6f273fb3ff75cd86df466e99.setContent(html_b26d4df9b3c3f63c5f5a7f98e71e73cf);
             
         
 
-        circle_marker_ff53a4393fe620b28517bf6214a40a28.bindPopup(popup_c05b6904fe8d48d2d1be0388d1102dcc)
+        circle_marker_c9a1aea7c911f3e42b40785e6c3143e7.bindPopup(popup_0bf1e9be6f273fb3ff75cd86df466e99)
         ;
 
         
     
     
-            var circle_marker_9443f05c8bb54ce5894f7fb91325ff1a = L.circleMarker(
+            var circle_marker_59821980261a4128cee3a8e26c48ade7 = L.circleMarker(
+                [-2.07277777777778, 105.667777777778],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
+        
+    
+        var popup_5f05f48d6650d8778d74309b06926025 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9d0e7b83c3a935a049e0e66875000f5 = $(`<div id="html_e9d0e7b83c3a935a049e0e66875000f5" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : TEMPILANG<br><b>Kabupaten</b> : BANGKA BARAT<br><b>Kecamatan</b> : TEMPILANG<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_5f05f48d6650d8778d74309b06926025.setContent(html_e9d0e7b83c3a935a049e0e66875000f5);
+            
+        
+
+        circle_marker_59821980261a4128cee3a8e26c48ade7.bindPopup(popup_5f05f48d6650d8778d74309b06926025)
+        ;
+
+        
+    
+    
+            var circle_marker_c684b7d513db7603b94a6b4afbe0af6f = L.circleMarker(
                 [-2.68416666666667, 106.388305555556],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_9cc86924c95b622134c62979064d8003 = L.popup({
+        var popup_f13ae6184dd1b62d0c96d59a7850625d = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_ac243454f2c9b300e898d6f30f3506dd = $(`<div id="html_ac243454f2c9b300e898d6f30f3506dd" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : AIR GEGAS<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : AIR GEGAS<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_9cc86924c95b622134c62979064d8003.setContent(html_ac243454f2c9b300e898d6f30f3506dd);
+                var html_db83ddd2a7a525e27fb9a43fdb585c08 = $(`<div id="html_db83ddd2a7a525e27fb9a43fdb585c08" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : AIR GEGAS<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : AIR GEGAS<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_f13ae6184dd1b62d0c96d59a7850625d.setContent(html_db83ddd2a7a525e27fb9a43fdb585c08);
             
         
 
-        circle_marker_9443f05c8bb54ce5894f7fb91325ff1a.bindPopup(popup_9cc86924c95b622134c62979064d8003)
+        circle_marker_c684b7d513db7603b94a6b4afbe0af6f.bindPopup(popup_f13ae6184dd1b62d0c96d59a7850625d)
         ;
 
         
     
     
-            var circle_marker_9ff756524f58ec1f3c1044f36736e06a = L.circleMarker(
+            var circle_marker_b5f1f35d52e3c2baf5bdc28d8196c17f = L.circleMarker(
                 [-2.56025, 106.363694444444],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_a79ad888acd88b9c2df4ed7ab74f0ae0 = L.popup({
+        var popup_c867298913cafd785b6baaea29131af7 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_88ef8b7e4465d20ba5b7c5c6dc27a87d = $(`<div id="html_88ef8b7e4465d20ba5b7c5c6dc27a87d" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA AIR BARA<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : AIR GEGAS<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_a79ad888acd88b9c2df4ed7ab74f0ae0.setContent(html_88ef8b7e4465d20ba5b7c5c6dc27a87d);
+                var html_e98dc5cf0067280fb6b10dfe03a928f2 = $(`<div id="html_e98dc5cf0067280fb6b10dfe03a928f2" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA AIR BARA<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : AIR GEGAS<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_c867298913cafd785b6baaea29131af7.setContent(html_e98dc5cf0067280fb6b10dfe03a928f2);
             
         
 
-        circle_marker_9ff756524f58ec1f3c1044f36736e06a.bindPopup(popup_a79ad888acd88b9c2df4ed7ab74f0ae0)
+        circle_marker_b5f1f35d52e3c2baf5bdc28d8196c17f.bindPopup(popup_c867298913cafd785b6baaea29131af7)
         ;
 
         
     
     
-            var circle_marker_4f158c050cf9a55bf799bed9600aa01b = L.circleMarker(
+            var circle_marker_00d1449e153885a76e1cba6fe6c2eb0a = L.circleMarker(
                 [-2.70575, 106.274111111111],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_d08e4f8cd24ff1fd4d733f36d9890e5f = L.popup({
+        var popup_1ea725f94370a5f45482d524f599321d = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_51d5e8c6cef06dd08e022626c14f73ef = $(`<div id="html_51d5e8c6cef06dd08e022626c14f73ef" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA NYELANDING<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : AIR GEGAS<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_d08e4f8cd24ff1fd4d733f36d9890e5f.setContent(html_51d5e8c6cef06dd08e022626c14f73ef);
+                var html_7e769043a7545dba9a7b52cef7710c9a = $(`<div id="html_7e769043a7545dba9a7b52cef7710c9a" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA NYELANDING<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : AIR GEGAS<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_1ea725f94370a5f45482d524f599321d.setContent(html_7e769043a7545dba9a7b52cef7710c9a);
             
         
 
-        circle_marker_4f158c050cf9a55bf799bed9600aa01b.bindPopup(popup_d08e4f8cd24ff1fd4d733f36d9890e5f)
+        circle_marker_00d1449e153885a76e1cba6fe6c2eb0a.bindPopup(popup_1ea725f94370a5f45482d524f599321d)
         ;
 
         
     
     
-            var circle_marker_c8f2c949c086ed66241198a7f49d9a90 = L.circleMarker(
+            var circle_marker_e5bca6bf4a6ff03adff5239c8646fd35 = L.circleMarker(
+                [-2.71125, 106.511027777778],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
+        
+    
+        var popup_9562541c32b1bd67dbc02e015e4e3726 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c178b00a5246882d5c3d263e4b7c0e35 = $(`<div id="html_c178b00a5246882d5c3d263e4b7c0e35" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : TEPUS<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : AIR GEGAS<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_9562541c32b1bd67dbc02e015e4e3726.setContent(html_c178b00a5246882d5c3d263e4b7c0e35);
+            
+        
+
+        circle_marker_e5bca6bf4a6ff03adff5239c8646fd35.bindPopup(popup_9562541c32b1bd67dbc02e015e4e3726)
+        ;
+
+        
+    
+    
+            var circle_marker_d25509d6bacc3bd7f5bb060efab0fb82 = L.circleMarker(
                 [-2.60358333333333, 106.140277777778],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_c8ce910a8376e0acb9ee4b70d3fd25f9 = L.popup({
+        var popup_45833e19c57aea1a2452055eff2b1fb0 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_0066baf84924fa1fabc556852486f56b = $(`<div id="html_0066baf84924fa1fabc556852486f56b" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : PAYUNG<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : PAYUNG<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_c8ce910a8376e0acb9ee4b70d3fd25f9.setContent(html_0066baf84924fa1fabc556852486f56b);
+                var html_d61ab03164e531b1a032dcc778d5ca55 = $(`<div id="html_d61ab03164e531b1a032dcc778d5ca55" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : PAYUNG<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : PAYUNG<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_45833e19c57aea1a2452055eff2b1fb0.setContent(html_d61ab03164e531b1a032dcc778d5ca55);
             
         
 
-        circle_marker_c8f2c949c086ed66241198a7f49d9a90.bindPopup(popup_c8ce910a8376e0acb9ee4b70d3fd25f9)
+        circle_marker_d25509d6bacc3bd7f5bb060efab0fb82.bindPopup(popup_45833e19c57aea1a2452055eff2b1fb0)
         ;
 
         
     
     
-            var circle_marker_da6b80158204686e0ebfcc9e216236f0 = L.circleMarker(
+            var circle_marker_9d3382ecab28433e6ff7dc0e32243e2f = L.circleMarker(
+                [-2.8125, 106.133888888889],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
+        
+    
+        var popup_5a9f74c60120ab748748c4d0255d3f7c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30b994d66ee50e295a04f36333abf516 = $(`<div id="html_30b994d66ee50e295a04f36333abf516" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : BATU BETUMPANG<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : PULAU BESAR<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_5a9f74c60120ab748748c4d0255d3f7c.setContent(html_30b994d66ee50e295a04f36333abf516);
+            
+        
+
+        circle_marker_9d3382ecab28433e6ff7dc0e32243e2f.bindPopup(popup_5a9f74c60120ab748748c4d0255d3f7c)
+        ;
+
+        
+    
+    
+            var circle_marker_c91cb1029f5ee0916e4d47c9a5a8693b = L.circleMarker(
                 [-2.51655555555556, 106.018694444444],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_07c413744d8a428c9e4b606ae823065a = L.popup({
+        var popup_047e05b093371a91bb08c5f1f8e840e4 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_7a6f6e7051f2a31c295e8e292e9acaa4 = $(`<div id="html_7a6f6e7051f2a31c295e8e292e9acaa4" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA BANGKA KOTA<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : SIMPANG RIMBA<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_07c413744d8a428c9e4b606ae823065a.setContent(html_7a6f6e7051f2a31c295e8e292e9acaa4);
+                var html_284e16267acc188c5d1be0842b9dffef = $(`<div id="html_284e16267acc188c5d1be0842b9dffef" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA BANGKA KOTA<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : SIMPANG RIMBA<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_047e05b093371a91bb08c5f1f8e840e4.setContent(html_284e16267acc188c5d1be0842b9dffef);
             
         
 
-        circle_marker_da6b80158204686e0ebfcc9e216236f0.bindPopup(popup_07c413744d8a428c9e4b606ae823065a)
+        circle_marker_c91cb1029f5ee0916e4d47c9a5a8693b.bindPopup(popup_047e05b093371a91bb08c5f1f8e840e4)
         ;
 
         
     
     
-            var circle_marker_3032a7211fb66981b60e44aafffd6b63 = L.circleMarker(
+            var circle_marker_5297f2c87b1b3bae88f0814f1ea02bcd = L.circleMarker(
                 [-2.63469444444444, 106.019277777778],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_b2844415b7995102ede2ee2ca9dcd9d8 = L.popup({
+        var popup_9248e97a041d30915f82543fa124ca0a = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_a991da8555622e3aebbeb922048b7849 = $(`<div id="html_a991da8555622e3aebbeb922048b7849" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA JELUTUNG II<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : SIMPANG RIMBA<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_b2844415b7995102ede2ee2ca9dcd9d8.setContent(html_a991da8555622e3aebbeb922048b7849);
+                var html_a1029003d299b5880ad8af88d82ce507 = $(`<div id="html_a1029003d299b5880ad8af88d82ce507" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA JELUTUNG II<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : SIMPANG RIMBA<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_9248e97a041d30915f82543fa124ca0a.setContent(html_a1029003d299b5880ad8af88d82ce507);
             
         
 
-        circle_marker_3032a7211fb66981b60e44aafffd6b63.bindPopup(popup_b2844415b7995102ede2ee2ca9dcd9d8)
+        circle_marker_5297f2c87b1b3bae88f0814f1ea02bcd.bindPopup(popup_9248e97a041d30915f82543fa124ca0a)
         ;
 
         
     
     
-            var circle_marker_69ba05ffc37c79cf9f5e31e85830b706 = L.circleMarker(
-                [-2.61880555555556, 105.901805555556],
+            var circle_marker_e291477293498d5f8264471eb0f6fc89 = L.circleMarker(
+                [-2.97027777777778, 106.441277777778],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_fed6e5b643c45f497243dd3e88a75ea1 = L.popup({
+        var popup_9dce9d04e7f8258f4efa5ec157ee70df = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_0037636479a49f4c0a34f24bd705a363 = $(`<div id="html_0037636479a49f4c0a34f24bd705a363" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA SEBAGIN<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : SIMPANG RIMBA<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_fed6e5b643c45f497243dd3e88a75ea1.setContent(html_0037636479a49f4c0a34f24bd705a363);
+                var html_cb2a48d207242b7ccf58b4de07791828 = $(`<div id="html_cb2a48d207242b7ccf58b4de07791828" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : RIAS<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : TOBOALI<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_9dce9d04e7f8258f4efa5ec157ee70df.setContent(html_cb2a48d207242b7ccf58b4de07791828);
             
         
 
-        circle_marker_69ba05ffc37c79cf9f5e31e85830b706.bindPopup(popup_fed6e5b643c45f497243dd3e88a75ea1)
+        circle_marker_e291477293498d5f8264471eb0f6fc89.bindPopup(popup_9dce9d04e7f8258f4efa5ec157ee70df)
         ;
 
         
     
     
-            var circle_marker_ff74dc920283921ce42a2384d17d1cd6 = L.circleMarker(
+            var circle_marker_402f6ec022e548bb44a417a85bb65c0e = L.circleMarker(
                 [-2.834, 106.423],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_6a64267acb22de3fd0f43b29c7085a9d = L.popup({
+        var popup_eb2faaeab67ee62cd43e4019003bb567 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_a3b0d1e4a8607a9b56d4550368c42b85 = $(`<div id="html_a3b0d1e4a8607a9b56d4550368c42b85" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : SERDANG<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : TOBOALI<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_6a64267acb22de3fd0f43b29c7085a9d.setContent(html_a3b0d1e4a8607a9b56d4550368c42b85);
+                var html_c7a816aea435a80cdeae269da50b5cf8 = $(`<div id="html_c7a816aea435a80cdeae269da50b5cf8" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : SERDANG<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : TOBOALI<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_eb2faaeab67ee62cd43e4019003bb567.setContent(html_c7a816aea435a80cdeae269da50b5cf8);
             
         
 
-        circle_marker_ff74dc920283921ce42a2384d17d1cd6.bindPopup(popup_6a64267acb22de3fd0f43b29c7085a9d)
+        circle_marker_402f6ec022e548bb44a417a85bb65c0e.bindPopup(popup_eb2faaeab67ee62cd43e4019003bb567)
         ;
 
         
     
     
-            var circle_marker_7fd5e07723e3473bb9f953bc0db3e58a = L.circleMarker(
+            var circle_marker_24b7f8cca5e5c4b66e19cfd9f32b14cc = L.circleMarker(
                 [-2.98155555555556, 106.584111111111],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_b2f6ba4fbfe220aa523353f893f4b36a = L.popup({
+        var popup_3eef7b8bd9232169c7cb3f1e6c585095 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_154cc5744d3e2faf4245d99fc4ac61b9 = $(`<div id="html_154cc5744d3e2faf4245d99fc4ac61b9" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA BUKIT TERAP<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : TUKAK SADAI<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_b2f6ba4fbfe220aa523353f893f4b36a.setContent(html_154cc5744d3e2faf4245d99fc4ac61b9);
+                var html_bc7c5152169319bc9e07ddb4040b79a5 = $(`<div id="html_bc7c5152169319bc9e07ddb4040b79a5" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA BUKIT TERAP<br><b>Kabupaten</b> : BANGKA SELATAN<br><b>Kecamatan</b> : TUKAK SADAI<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_3eef7b8bd9232169c7cb3f1e6c585095.setContent(html_bc7c5152169319bc9e07ddb4040b79a5);
             
         
 
-        circle_marker_7fd5e07723e3473bb9f953bc0db3e58a.bindPopup(popup_b2f6ba4fbfe220aa523353f893f4b36a)
+        circle_marker_24b7f8cca5e5c4b66e19cfd9f32b14cc.bindPopup(popup_3eef7b8bd9232169c7cb3f1e6c585095)
         ;
 
         
     
     
-            var circle_marker_56158c1d4bd0418ef94176e25ebef485 = L.circleMarker(
+            var circle_marker_054453e70af64c2f8065ecd1286e6d25 = L.circleMarker(
                 [-2.40941666666667, 106.29],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_609830c540e457fe19bd6929f7a1c924 = L.popup({
+        var popup_1799c4c0a52f940c7b232ff3cc4899f9 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_c6dc5de6865e1301656258296abb99ee = $(`<div id="html_c6dc5de6865e1301656258296abb99ee" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : PENYAK (KOBA2)<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : KOBA<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_609830c540e457fe19bd6929f7a1c924.setContent(html_c6dc5de6865e1301656258296abb99ee);
+                var html_09fd43cb616bbed2960904f659ee0137 = $(`<div id="html_09fd43cb616bbed2960904f659ee0137" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : PENYAK (KOBA2)<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : KOBA<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_1799c4c0a52f940c7b232ff3cc4899f9.setContent(html_09fd43cb616bbed2960904f659ee0137);
             
         
 
-        circle_marker_56158c1d4bd0418ef94176e25ebef485.bindPopup(popup_609830c540e457fe19bd6929f7a1c924)
+        circle_marker_054453e70af64c2f8065ecd1286e6d25.bindPopup(popup_1799c4c0a52f940c7b232ff3cc4899f9)
         ;
 
         
     
     
-            var circle_marker_43ff1f4eac18a69fe5155a057a2c2cb9 = L.circleMarker(
+            var circle_marker_720910851b373e275b58662444043b1e = L.circleMarker(
                 [-2.52327777777778, 106.416694444444],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_2381a9e3e3be9a6ae4d949888ccd82be = L.popup({
+        var popup_533ec3d05da2312030514a5da2800a47 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_955c2406e3164f582c2622c12f272373 = $(`<div id="html_955c2406e3164f582c2622c12f272373" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : STAKLIM KOBA<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : KOBA<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_2381a9e3e3be9a6ae4d949888ccd82be.setContent(html_955c2406e3164f582c2622c12f272373);
+                var html_744999a5c37c11cca81afa8024bba4e6 = $(`<div id="html_744999a5c37c11cca81afa8024bba4e6" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : STAKLIM KOBA<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : KOBA<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_533ec3d05da2312030514a5da2800a47.setContent(html_744999a5c37c11cca81afa8024bba4e6);
             
         
 
-        circle_marker_43ff1f4eac18a69fe5155a057a2c2cb9.bindPopup(popup_2381a9e3e3be9a6ae4d949888ccd82be)
+        circle_marker_720910851b373e275b58662444043b1e.bindPopup(popup_533ec3d05da2312030514a5da2800a47)
         ;
 
         
     
     
-            var circle_marker_192b04abb2f7f0e418472ebf1dc53401 = L.circleMarker(
+            var circle_marker_9d4da76fc90f5bb0e60ffc616c4aeeca = L.circleMarker(
                 [-2.59841666666667, 106.778194444444],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_a931b801409903574ffc63d4a1ef67fe = L.popup({
+        var popup_ba9f230e5b521649ed1c4efb04d8f39f = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_956ea9be1ae661dd334e40691f03f37b = $(`<div id="html_956ea9be1ae661dd334e40691f03f37b" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : BATU BERIGA<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : LUBUK BESAR<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_a931b801409903574ffc63d4a1ef67fe.setContent(html_956ea9be1ae661dd334e40691f03f37b);
+                var html_e567ea30d00db426addd031a101abcb0 = $(`<div id="html_e567ea30d00db426addd031a101abcb0" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : BATU BERIGA<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : LUBUK BESAR<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_ba9f230e5b521649ed1c4efb04d8f39f.setContent(html_e567ea30d00db426addd031a101abcb0);
             
         
 
-        circle_marker_192b04abb2f7f0e418472ebf1dc53401.bindPopup(popup_a931b801409903574ffc63d4a1ef67fe)
+        circle_marker_9d4da76fc90f5bb0e60ffc616c4aeeca.bindPopup(popup_ba9f230e5b521649ed1c4efb04d8f39f)
         ;
 
         
     
     
-            var circle_marker_4fcc099031a18ac6b7f54fcd7bc2b721 = L.circleMarker(
-                [-2.54833333333333, 106.498194444444],
-                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
-        
-    
-        var popup_c9ebe889c14e7a41022367302b8a819b = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_e617c0562d601b46546093eda7840729 = $(`<div id="html_e617c0562d601b46546093eda7840729" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DESA TRUBUS<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : LUBUK BESAR<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_c9ebe889c14e7a41022367302b8a819b.setContent(html_e617c0562d601b46546093eda7840729);
-            
-        
-
-        circle_marker_4fcc099031a18ac6b7f54fcd7bc2b721.bindPopup(popup_c9ebe889c14e7a41022367302b8a819b)
-        ;
-
-        
-    
-    
-            var circle_marker_3403761283eb80716d3b86a096125d73 = L.circleMarker(
+            var circle_marker_64815dc7ce7f95776ec790af1553244a = L.circleMarker(
                 [-2.54358333333333, 106.668305555556],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_a65133a74e408f28c6244527b1af3d46 = L.popup({
+        var popup_1243613c5a737f926ab766c8518c16e5 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_4fda404fa1d1edc7b0da3d7ce41cb30a = $(`<div id="html_4fda404fa1d1edc7b0da3d7ce41cb30a" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : LUBUK BESAR<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : LUBUK BESAR<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_a65133a74e408f28c6244527b1af3d46.setContent(html_4fda404fa1d1edc7b0da3d7ce41cb30a);
+                var html_0062e5154e901930501cbc0c358f1c2c = $(`<div id="html_0062e5154e901930501cbc0c358f1c2c" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : LUBUK BESAR<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : LUBUK BESAR<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_1243613c5a737f926ab766c8518c16e5.setContent(html_0062e5154e901930501cbc0c358f1c2c);
             
         
 
-        circle_marker_3403761283eb80716d3b86a096125d73.bindPopup(popup_a65133a74e408f28c6244527b1af3d46)
+        circle_marker_64815dc7ce7f95776ec790af1553244a.bindPopup(popup_1243613c5a737f926ab766c8518c16e5)
         ;
 
         
     
     
-            var circle_marker_426399442f78374acb89b203caae9de3 = L.circleMarker(
+            var circle_marker_4c562dd093cb5ac33f9ba6be1c1a4ca6 = L.circleMarker(
                 [-2.24080555555556, 106.153888888889],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_beca41d703e777bbe4bb558c75b8ce50 = L.popup({
+        var popup_8c8e0c4757008d5b877bd96b5ecc1db9 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_96728fb3ba32ed13dc052bb15c09e690 = $(`<div id="html_96728fb3ba32ed13dc052bb15c09e690" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : CAMBAI<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : NAMANG<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_beca41d703e777bbe4bb558c75b8ce50.setContent(html_96728fb3ba32ed13dc052bb15c09e690);
+                var html_386f002a317e41f2a1f6cc5d776bdc9e = $(`<div id="html_386f002a317e41f2a1f6cc5d776bdc9e" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : CAMBAI<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : NAMANG<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_8c8e0c4757008d5b877bd96b5ecc1db9.setContent(html_386f002a317e41f2a1f6cc5d776bdc9e);
             
         
 
-        circle_marker_426399442f78374acb89b203caae9de3.bindPopup(popup_beca41d703e777bbe4bb558c75b8ce50)
+        circle_marker_4c562dd093cb5ac33f9ba6be1c1a4ca6.bindPopup(popup_8c8e0c4757008d5b877bd96b5ecc1db9)
         ;
 
         
     
     
-            var circle_marker_2d68303dd0aadf39b10b23bf4162b734 = L.circleMarker(
+            var circle_marker_24810befe0e1ed26392a86cd851415e2 = L.circleMarker(
                 [-2.15666666666667, 106.089166666667],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_6b457321f140690a5b714739aa5afb6d = L.popup({
+        var popup_c50fe2c43b660718149ad75270439608 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_5afdfad317927ebc559ccce59a5cca5d = $(`<div id="html_5afdfad317927ebc559ccce59a5cca5d" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : MANGKOL<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : PANGKALAN BARU<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_6b457321f140690a5b714739aa5afb6d.setContent(html_5afdfad317927ebc559ccce59a5cca5d);
+                var html_b141599f28a753bb9c5df841a0ed7c83 = $(`<div id="html_b141599f28a753bb9c5df841a0ed7c83" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : MANGKOL<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : PANGKALAN BARU<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_c50fe2c43b660718149ad75270439608.setContent(html_b141599f28a753bb9c5df841a0ed7c83);
             
         
 
-        circle_marker_2d68303dd0aadf39b10b23bf4162b734.bindPopup(popup_6b457321f140690a5b714739aa5afb6d)
+        circle_marker_24810befe0e1ed26392a86cd851415e2.bindPopup(popup_c50fe2c43b660718149ad75270439608)
         ;
 
         
     
     
-            var circle_marker_ca33f3d3758186af29e597c19b1c07c5 = L.circleMarker(
+            var circle_marker_9677958edb6b0aeb927b4ec28701abeb = L.circleMarker(
                 [-2.16, 106.139972222222],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_75a2cc5540885353ba216ac4e6369fa4 = L.popup({
+        var popup_0e1fb1bafcf5aeac67c5ac8eb32e9cdb = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_4e83d524129a5870a89e20659dd4747d = $(`<div id="html_4e83d524129a5870a89e20659dd4747d" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : STAMET PANGKALPINANG<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : PANGKALAN BARU<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_75a2cc5540885353ba216ac4e6369fa4.setContent(html_4e83d524129a5870a89e20659dd4747d);
+                var html_765b258ef73bb7c698236a6c60683810 = $(`<div id="html_765b258ef73bb7c698236a6c60683810" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : STAMET PANGKALPINANG<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : PANGKALAN BARU<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_0e1fb1bafcf5aeac67c5ac8eb32e9cdb.setContent(html_765b258ef73bb7c698236a6c60683810);
             
         
 
-        circle_marker_ca33f3d3758186af29e597c19b1c07c5.bindPopup(popup_75a2cc5540885353ba216ac4e6369fa4)
+        circle_marker_9677958edb6b0aeb927b4ec28701abeb.bindPopup(popup_0e1fb1bafcf5aeac67c5ac8eb32e9cdb)
         ;
 
         
     
     
-            var circle_marker_b9dde6e8bd4ec5c6099236dfba06cbf9 = L.circleMarker(
+            var circle_marker_8eb90c7c611b803b8917a19b453a8709 = L.circleMarker(
+                [-2.32666666666667, 106.143583333333],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
+        
+    
+        var popup_7120caf01328bd032ef31d94d8504327 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f1076ac59c47c9b59b3923b0a07d24b = $(`<div id="html_3f1076ac59c47c9b59b3923b0a07d24b" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : CELUAK<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : SIMPANG KATIS<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_7120caf01328bd032ef31d94d8504327.setContent(html_3f1076ac59c47c9b59b3923b0a07d24b);
+            
+        
+
+        circle_marker_8eb90c7c611b803b8917a19b453a8709.bindPopup(popup_7120caf01328bd032ef31d94d8504327)
+        ;
+
+        
+    
+    
+            var circle_marker_e528a7f636d1479517b5ab36bc728e05 = L.circleMarker(
+                [-2.45830555555556, 106.132388888889],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
+        
+    
+        var popup_44fe485f7c0c3ee1087e83bb6ccf3f3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aeb0cbb95bead024955f67eb7b610493 = $(`<div id="html_aeb0cbb95bead024955f67eb7b610493" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : KEMINGKING<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : SUNGAI SELAN<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_44fe485f7c0c3ee1087e83bb6ccf3f3a.setContent(html_aeb0cbb95bead024955f67eb7b610493);
+            
+        
+
+        circle_marker_e528a7f636d1479517b5ab36bc728e05.bindPopup(popup_44fe485f7c0c3ee1087e83bb6ccf3f3a)
+        ;
+
+        
+    
+    
+            var circle_marker_a91d1b8b219e33355579aec0d3eebbc8 = L.circleMarker(
+                [-2.36858333333333, 105.999416666667],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
+        
+    
+        var popup_ef02349d5546daa27e97d809a2fa7648 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1e0d5472d07ded3f2e63b938eefa3c8 = $(`<div id="html_c1e0d5472d07ded3f2e63b938eefa3c8" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : SUNGAI SELAN<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : SUNGAI SELAN<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_ef02349d5546daa27e97d809a2fa7648.setContent(html_c1e0d5472d07ded3f2e63b938eefa3c8);
+            
+        
+
+        circle_marker_a91d1b8b219e33355579aec0d3eebbc8.bindPopup(popup_ef02349d5546daa27e97d809a2fa7648)
+        ;
+
+        
+    
+    
+            var circle_marker_e8c61889f90e72a5d7aa3ded68d43dca = L.circleMarker(
+                [-2.36958333333333, 105.816611111111],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
+        
+    
+        var popup_92b6641703621b274b6b93fd1ae13a8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee53affc433c92060c21ec87843a8437 = $(`<div id="html_ee53affc433c92060c21ec87843a8437" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : TANJUNG PURA<br><b>Kabupaten</b> : BANGKA TENGAH<br><b>Kecamatan</b> : SUNGAI SELAN<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_92b6641703621b274b6b93fd1ae13a8e.setContent(html_ee53affc433c92060c21ec87843a8437);
+            
+        
+
+        circle_marker_e8c61889f90e72a5d7aa3ded68d43dca.bindPopup(popup_92b6641703621b274b6b93fd1ae13a8e)
+        ;
+
+        
+    
+    
+            var circle_marker_f0b41100ac282a90f4797b07a19dda97 = L.circleMarker(
+                [-2.80866666666667, 107.774805555556],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
+        
+    
+        var popup_1df69e8d1ae9644e598611666d67cca4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87d3c4498c9babc30823821ba0d6657d = $(`<div id="html_87d3c4498c9babc30823821ba0d6657d" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : BADAU<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : BADAU<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_1df69e8d1ae9644e598611666d67cca4.setContent(html_87d3c4498c9babc30823821ba0d6657d);
+            
+        
+
+        circle_marker_f0b41100ac282a90f4797b07a19dda97.bindPopup(popup_1df69e8d1ae9644e598611666d67cca4)
+        ;
+
+        
+    
+    
+            var circle_marker_bcae22374be74d6120b04be17b12c76d = L.circleMarker(
                 [-2.75227777777778, 107.864555555556],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_153a75ced2ab629ad2dd57dfa133604f = L.popup({
+        var popup_d952bb418ae4632548bcfd6d99972d8b = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_503ce8a6d931b6ff07d59c0c2db3f62a = $(`<div id="html_503ce8a6d931b6ff07d59c0c2db3f62a" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : BUKIT INDAH<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : BADAU<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_153a75ced2ab629ad2dd57dfa133604f.setContent(html_503ce8a6d931b6ff07d59c0c2db3f62a);
+                var html_d69a61d0042cbe6224102ac5624abd94 = $(`<div id="html_d69a61d0042cbe6224102ac5624abd94" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : BUKIT INDAH<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : BADAU<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_d952bb418ae4632548bcfd6d99972d8b.setContent(html_d69a61d0042cbe6224102ac5624abd94);
             
         
 
-        circle_marker_b9dde6e8bd4ec5c6099236dfba06cbf9.bindPopup(popup_153a75ced2ab629ad2dd57dfa133604f)
+        circle_marker_bcae22374be74d6120b04be17b12c76d.bindPopup(popup_d952bb418ae4632548bcfd6d99972d8b)
         ;
 
         
     
     
-            var circle_marker_f7982adb23a3ee85f8f87586f6ac0c11 = L.circleMarker(
+            var circle_marker_ab2eefbde0b0e9eec3963db83f2a5e2c = L.circleMarker(
                 [-2.84175, 107.796055555556],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_979bf1334f4e0e0eba182857eb3cbc75 = L.popup({
+        var popup_b8851fc6637f4453b52eb085a19fdf4d = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_7bca09e25ac5555a9a10308e760a355d = $(`<div id="html_7bca09e25ac5555a9a10308e760a355d" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : IBUL<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : BADAU<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_979bf1334f4e0e0eba182857eb3cbc75.setContent(html_7bca09e25ac5555a9a10308e760a355d);
+                var html_cc056c1b29a586d8a85c40be7dc068e5 = $(`<div id="html_cc056c1b29a586d8a85c40be7dc068e5" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : IBUL<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : BADAU<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_b8851fc6637f4453b52eb085a19fdf4d.setContent(html_cc056c1b29a586d8a85c40be7dc068e5);
             
         
 
-        circle_marker_f7982adb23a3ee85f8f87586f6ac0c11.bindPopup(popup_979bf1334f4e0e0eba182857eb3cbc75)
+        circle_marker_ab2eefbde0b0e9eec3963db83f2a5e2c.bindPopup(popup_b8851fc6637f4453b52eb085a19fdf4d)
         ;
 
         
     
     
-            var circle_marker_a93779013c1039cd3462fd0ea1794a74 = L.circleMarker(
-                [-2.85430555555556, 107.598555555556],
+            var circle_marker_b85a95fa592f5a31662bbb7e490eefcb = L.circleMarker(
+                [-2.89447222222222, 107.566972222222],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_69fced81c74cf1f387c1f80b318b7fa0 = L.popup({
+        var popup_a81aadea84ae153b451a7cb8531fecee = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_ce464fc87ef5a4b5dc13f56316c4f0f5 = $(`<div id="html_ce464fc87ef5a4b5dc13f56316c4f0f5" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : SUNGAI SAMAK<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : BADAU<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_69fced81c74cf1f387c1f80b318b7fa0.setContent(html_ce464fc87ef5a4b5dc13f56316c4f0f5);
+                var html_61c56274827dee49a9487e493af77101 = $(`<div id="html_61c56274827dee49a9487e493af77101" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : PEGANTUNGAN<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : BADAU<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_a81aadea84ae153b451a7cb8531fecee.setContent(html_61c56274827dee49a9487e493af77101);
             
         
 
-        circle_marker_a93779013c1039cd3462fd0ea1794a74.bindPopup(popup_69fced81c74cf1f387c1f80b318b7fa0)
+        circle_marker_b85a95fa592f5a31662bbb7e490eefcb.bindPopup(popup_a81aadea84ae153b451a7cb8531fecee)
         ;
 
         
     
     
-            var circle_marker_e5983b9187c5faffc85861728fa3d083 = L.circleMarker(
-                [-2.76633333333333, 107.805805555556],
-                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
-        
-    
-        var popup_072d5db7b9ddee9aece88fa3e078f863 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_5952e9e71cff17888ea5004deadbe4ee = $(`<div id="html_5952e9e71cff17888ea5004deadbe4ee" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : TUNGKUSAN<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : BADAU<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_072d5db7b9ddee9aece88fa3e078f863.setContent(html_5952e9e71cff17888ea5004deadbe4ee);
-            
-        
-
-        circle_marker_e5983b9187c5faffc85861728fa3d083.bindPopup(popup_072d5db7b9ddee9aece88fa3e078f863)
-        ;
-
-        
-    
-    
-            var circle_marker_23117d6c95343acbf010f00448881a10 = L.circleMarker(
+            var circle_marker_ce17fd80079f7b09d33a4f902ba36fed = L.circleMarker(
                 [-3.12113888888889, 107.652666666667],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_c46b4a8b9402285589ecf650908c2339 = L.popup({
+        var popup_118f4ceb36343d761ebd5df377489b72 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_a8c9a0f93cef8a5e4c417cb638017307 = $(`<div id="html_a8c9a0f93cef8a5e4c417cb638017307" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : MEMBALONG<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : MEMBALONG<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_c46b4a8b9402285589ecf650908c2339.setContent(html_a8c9a0f93cef8a5e4c417cb638017307);
+                var html_3736620ca5ff520c745a2b2197ca0e30 = $(`<div id="html_3736620ca5ff520c745a2b2197ca0e30" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : MEMBALONG<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : MEMBALONG<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_118f4ceb36343d761ebd5df377489b72.setContent(html_3736620ca5ff520c745a2b2197ca0e30);
             
         
 
-        circle_marker_23117d6c95343acbf010f00448881a10.bindPopup(popup_c46b4a8b9402285589ecf650908c2339)
+        circle_marker_ce17fd80079f7b09d33a4f902ba36fed.bindPopup(popup_118f4ceb36343d761ebd5df377489b72)
         ;
 
         
     
     
-            var circle_marker_d67ab558d06098371795c11e58e6e33a = L.circleMarker(
+            var circle_marker_fec737ea37e11ff185d7967ceb4b6155 = L.circleMarker(
                 [-2.56866666666667, 107.770194444444],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_11d0ef2f02ad2f169b1a59132017118c = L.popup({
+        var popup_cf97712270550d127933c5391527d18b = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_1958ac0ac65bb99cc28dee4a9ee640e9 = $(`<div id="html_1958ac0ac65bb99cc28dee4a9ee640e9" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : SIJUK<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : SIJUK<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_11d0ef2f02ad2f169b1a59132017118c.setContent(html_1958ac0ac65bb99cc28dee4a9ee640e9);
+                var html_f85caba74782f134363d0b6c43dd5ce3 = $(`<div id="html_f85caba74782f134363d0b6c43dd5ce3" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : SIJUK<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : SIJUK<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_cf97712270550d127933c5391527d18b.setContent(html_f85caba74782f134363d0b6c43dd5ce3);
             
         
 
-        circle_marker_d67ab558d06098371795c11e58e6e33a.bindPopup(popup_11d0ef2f02ad2f169b1a59132017118c)
+        circle_marker_fec737ea37e11ff185d7967ceb4b6155.bindPopup(popup_cf97712270550d127933c5391527d18b)
         ;
 
         
     
     
-            var circle_marker_62ed8e994a0116f34c8f3708567adbf9 = L.circleMarker(
+            var circle_marker_5406ee8d2bfc019ceaedcff805d2f5e8 = L.circleMarker(
                 [-2.60211111111111, 107.6445],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_d5d2f5e9f781916d8f84fa102d04f065 = L.popup({
+        var popup_81e4c3adbd7d6f805a8ac8f159e9bb3c = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_b25616fd7a6b4462e71741486d4afd5c = $(`<div id="html_b25616fd7a6b4462e71741486d4afd5c" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : TANJUNG BINGA<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : SIJUK<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_d5d2f5e9f781916d8f84fa102d04f065.setContent(html_b25616fd7a6b4462e71741486d4afd5c);
+                var html_e5c31a921dca60e8eb84943891da4c1f = $(`<div id="html_e5c31a921dca60e8eb84943891da4c1f" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : TANJUNG BINGA<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : SIJUK<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_81e4c3adbd7d6f805a8ac8f159e9bb3c.setContent(html_e5c31a921dca60e8eb84943891da4c1f);
             
         
 
-        circle_marker_62ed8e994a0116f34c8f3708567adbf9.bindPopup(popup_d5d2f5e9f781916d8f84fa102d04f065)
+        circle_marker_5406ee8d2bfc019ceaedcff805d2f5e8.bindPopup(popup_81e4c3adbd7d6f805a8ac8f159e9bb3c)
         ;
 
         
     
     
-            var circle_marker_03223794b1e1409cf67c18ed0756a378 = L.circleMarker(
+            var circle_marker_b97dad2893a7f416bc64583216baa4fb = L.circleMarker(
                 [-2.75, 107.78],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_a1ce3f80e8dcfcded55d429144c86892 = L.popup({
+        var popup_05f760f174f9d3e0fe8d967b4e80e4c8 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_4a9d67196ca511c0ff28c470a9dd47fc = $(`<div id="html_4a9d67196ca511c0ff28c470a9dd47fc" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : STAMET BULUH TUMBANG / STAMET HAS. HANANDJOEDDIN<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : TANJUNG PANDAN<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_a1ce3f80e8dcfcded55d429144c86892.setContent(html_4a9d67196ca511c0ff28c470a9dd47fc);
+                var html_08622398c15aaa50bd1e5202967c9fba = $(`<div id="html_08622398c15aaa50bd1e5202967c9fba" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : STAMET BULUH TUMBANG / STAMET HAS. HANANDJOEDDIN<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : TANJUNG PANDAN<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_05f760f174f9d3e0fe8d967b4e80e4c8.setContent(html_08622398c15aaa50bd1e5202967c9fba);
             
         
 
-        circle_marker_03223794b1e1409cf67c18ed0756a378.bindPopup(popup_a1ce3f80e8dcfcded55d429144c86892)
+        circle_marker_b97dad2893a7f416bc64583216baa4fb.bindPopup(popup_05f760f174f9d3e0fe8d967b4e80e4c8)
         ;
 
         
     
     
-            var circle_marker_8bef2f5979b39449ed40f93428a4f813 = L.circleMarker(
-                [-2.71552777777778, 107.641694444444],
-                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
-        
-    
-        var popup_e353e2e38b0bde83839453c6dc88708f = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_74639299add55552a43bab227a9d8476 = $(`<div id="html_74639299add55552a43bab227a9d8476" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : AIR SAGA<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : TANJUNGPANDAN<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_e353e2e38b0bde83839453c6dc88708f.setContent(html_74639299add55552a43bab227a9d8476);
-            
-        
-
-        circle_marker_8bef2f5979b39449ed40f93428a4f813.bindPopup(popup_e353e2e38b0bde83839453c6dc88708f)
-        ;
-
-        
-    
-    
-            var circle_marker_889da7ba0341b769deb21f1cc0964c39 = L.circleMarker(
+            var circle_marker_13602b458c8faba22b6cdf8b73b9d4a2 = L.circleMarker(
                 [-2.76025, 107.661055555556],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_6772811454b94c08503e3521ce585548 = L.popup({
+        var popup_9dba1ee7d6e92f173eba9cf971b7583e = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_4e4f8c351b6cb80e601c1c6034c14019 = $(`<div id="html_4e4f8c351b6cb80e601c1c6034c14019" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : PANGKALALANG<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : TANJUNGPANDAN<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_6772811454b94c08503e3521ce585548.setContent(html_4e4f8c351b6cb80e601c1c6034c14019);
+                var html_fdfd74bfc2608d39660c9bcc012c2d63 = $(`<div id="html_fdfd74bfc2608d39660c9bcc012c2d63" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : PANGKALALANG<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : TANJUNGPANDAN<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_9dba1ee7d6e92f173eba9cf971b7583e.setContent(html_fdfd74bfc2608d39660c9bcc012c2d63);
             
         
 
-        circle_marker_889da7ba0341b769deb21f1cc0964c39.bindPopup(popup_6772811454b94c08503e3521ce585548)
+        circle_marker_13602b458c8faba22b6cdf8b73b9d4a2.bindPopup(popup_9dba1ee7d6e92f173eba9cf971b7583e)
         ;
 
         
     
     
-            var circle_marker_0694742e0c9a2e734e2471c7a43a9e29 = L.circleMarker(
+            var circle_marker_98d29ce8c7164a763c63e8c10f653dd0 = L.circleMarker(
                 [-2.77713888888889, 107.685527777778],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_835ede3711a0e66443910fdf7e9b10ba = L.popup({
+        var popup_f04bd3eeec1aa6aa378f88f36a795ae8 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_6783aa147957b50cf2bc489a9bc42a70 = $(`<div id="html_6783aa147957b50cf2bc489a9bc42a70" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : PERAWAS<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : TANJUNGPANDAN<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_835ede3711a0e66443910fdf7e9b10ba.setContent(html_6783aa147957b50cf2bc489a9bc42a70);
+                var html_ec2ff7f72cc6255663f0181cabed6a53 = $(`<div id="html_ec2ff7f72cc6255663f0181cabed6a53" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : PERAWAS<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : TANJUNGPANDAN<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_f04bd3eeec1aa6aa378f88f36a795ae8.setContent(html_ec2ff7f72cc6255663f0181cabed6a53);
             
         
 
-        circle_marker_0694742e0c9a2e734e2471c7a43a9e29.bindPopup(popup_835ede3711a0e66443910fdf7e9b10ba)
+        circle_marker_98d29ce8c7164a763c63e8c10f653dd0.bindPopup(popup_f04bd3eeec1aa6aa378f88f36a795ae8)
         ;
 
         
     
     
-            var circle_marker_a2ead3d816af1c4f129c0b3738ca89b0 = L.circleMarker(
+            var circle_marker_e3cd0bc0ff3739984d055666ce378525 = L.circleMarker(
                 [-2.75691666666667, 107.719027777778],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_75c3406015337522fff7db398a49c575 = L.popup({
+        var popup_b3195a4a6fe9615b01a1b10ad5b42a63 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_b285278a957d5dc0bce5800b1ca992f6 = $(`<div id="html_b285278a957d5dc0bce5800b1ca992f6" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : PERAWAS BPP<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : TANJUNGPANDAN<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_75c3406015337522fff7db398a49c575.setContent(html_b285278a957d5dc0bce5800b1ca992f6);
+                var html_e7689ad84296e05ac1c67dbd48a76f93 = $(`<div id="html_e7689ad84296e05ac1c67dbd48a76f93" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : PERAWAS BPP<br><b>Kabupaten</b> : BELITUNG<br><b>Kecamatan</b> : TANJUNGPANDAN<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_b3195a4a6fe9615b01a1b10ad5b42a63.setContent(html_e7689ad84296e05ac1c67dbd48a76f93);
             
         
 
-        circle_marker_a2ead3d816af1c4f129c0b3738ca89b0.bindPopup(popup_75c3406015337522fff7db398a49c575)
+        circle_marker_e3cd0bc0ff3739984d055666ce378525.bindPopup(popup_b3195a4a6fe9615b01a1b10ad5b42a63)
         ;
 
         
     
     
-            var circle_marker_ee223854b42a2692b04a3e29987bcdd7 = L.circleMarker(
+            var circle_marker_0167bff9f36fa278ca07f912dac7a456 = L.circleMarker(
                 [-2.78105555555556, 108.214083333333],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_dd63d081ceae42466e90b186a8c5c615 = L.popup({
+        var popup_327600cce0abfd0d5e5d7a04d76b8bbd = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_291fed4f636c89e1f23d4cad7bba1ce1 = $(`<div id="html_291fed4f636c89e1f23d4cad7bba1ce1" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DAMAR<br><b>Kabupaten</b> : BELITUNG TIMUR<br><b>Kecamatan</b> : DAMAR<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_dd63d081ceae42466e90b186a8c5c615.setContent(html_291fed4f636c89e1f23d4cad7bba1ce1);
+                var html_4188b84639b23acb90e075b87abdbb06 = $(`<div id="html_4188b84639b23acb90e075b87abdbb06" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : DAMAR<br><b>Kabupaten</b> : BELITUNG TIMUR<br><b>Kecamatan</b> : DAMAR<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_327600cce0abfd0d5e5d7a04d76b8bbd.setContent(html_4188b84639b23acb90e075b87abdbb06);
             
         
 
-        circle_marker_ee223854b42a2692b04a3e29987bcdd7.bindPopup(popup_dd63d081ceae42466e90b186a8c5c615)
+        circle_marker_0167bff9f36fa278ca07f912dac7a456.bindPopup(popup_327600cce0abfd0d5e5d7a04d76b8bbd)
         ;
 
         
     
     
-            var circle_marker_5267f03d28f020f36a511a4655dbbc8b = L.circleMarker(
+            var circle_marker_cd1fd08cfc69e8dcf97018342bc0d357 = L.circleMarker(
                 [-2.95, 107.855777777778],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_47c20efc96713d262494eb810ff08a5f = L.popup({
+        var popup_bc2db7d713ecc77000d458a67569c795 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_ba04996b3d477197eaa7d41784a4fa20 = $(`<div id="html_ba04996b3d477197eaa7d41784a4fa20" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : AIR ASAM<br><b>Kabupaten</b> : BELITUNG TIMUR<br><b>Kecamatan</b> : DENDANG<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_47c20efc96713d262494eb810ff08a5f.setContent(html_ba04996b3d477197eaa7d41784a4fa20);
+                var html_8f1fa9bf6f1aeb0d6e7816ad4f4f303e = $(`<div id="html_8f1fa9bf6f1aeb0d6e7816ad4f4f303e" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : AIR ASAM<br><b>Kabupaten</b> : BELITUNG TIMUR<br><b>Kecamatan</b> : DENDANG<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_bc2db7d713ecc77000d458a67569c795.setContent(html_8f1fa9bf6f1aeb0d6e7816ad4f4f303e);
             
         
 
-        circle_marker_5267f03d28f020f36a511a4655dbbc8b.bindPopup(popup_47c20efc96713d262494eb810ff08a5f)
+        circle_marker_cd1fd08cfc69e8dcf97018342bc0d357.bindPopup(popup_bc2db7d713ecc77000d458a67569c795)
         ;
 
         
     
     
-            var circle_marker_fe1b552a655db642f6f39b161301a1ea = L.circleMarker(
+            var circle_marker_99863d0593b34df5976670c1f97c7d30 = L.circleMarker(
                 [-2.68891666666667, 108.058472222222],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_81c2d0c7a8c4268021d32f5229f4831a = L.popup({
+        var popup_27a5ff72416230eb38f04fe087e67ba2 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_953dac00d1d49e3f63238467bd32125c = $(`<div id="html_953dac00d1d49e3f63238467bd32125c" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : KELAPA KAMPIT<br><b>Kabupaten</b> : BELITUNG TIMUR<br><b>Kecamatan</b> : KELAPA KAMPIT<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_81c2d0c7a8c4268021d32f5229f4831a.setContent(html_953dac00d1d49e3f63238467bd32125c);
+                var html_12fc8da2886434fbb4ff80e21002a1aa = $(`<div id="html_12fc8da2886434fbb4ff80e21002a1aa" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : KELAPA KAMPIT<br><b>Kabupaten</b> : BELITUNG TIMUR<br><b>Kecamatan</b> : KELAPA KAMPIT<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_27a5ff72416230eb38f04fe087e67ba2.setContent(html_12fc8da2886434fbb4ff80e21002a1aa);
             
         
 
-        circle_marker_fe1b552a655db642f6f39b161301a1ea.bindPopup(popup_81c2d0c7a8c4268021d32f5229f4831a)
+        circle_marker_99863d0593b34df5976670c1f97c7d30.bindPopup(popup_27a5ff72416230eb38f04fe087e67ba2)
         ;
 
         
     
     
-            var circle_marker_e975ce689a8e61a06cc3f22fe274ed39 = L.circleMarker(
+            var circle_marker_59e86e846d596e6ae7e387ee4c3f4de6 = L.circleMarker(
+                [-2.86580555555556, 108.278888888889],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
+        
+    
+        var popup_b2647112c06ad1875529757a7dc45ae6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4fbe1f4d9715bb7519572b6e971d2cf = $(`<div id="html_e4fbe1f4d9715bb7519572b6e971d2cf" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : LALANG<br><b>Kabupaten</b> : BELITUNG TIMUR<br><b>Kecamatan</b> : MANGGAR<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_b2647112c06ad1875529757a7dc45ae6.setContent(html_e4fbe1f4d9715bb7519572b6e971d2cf);
+            
+        
+
+        circle_marker_59e86e846d596e6ae7e387ee4c3f4de6.bindPopup(popup_b2647112c06ad1875529757a7dc45ae6)
+        ;
+
+        
+    
+    
+            var circle_marker_9b854a9a818e514b3fcd739e4bf1b9e1 = L.circleMarker(
                 [-3.112, 107.96],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_25b6c230673134c27c9864b8eb6425c3 = L.popup({
+        var popup_e5be0ed4533101de1bcb3ff8789ee30d = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_9181fa7b7b529b1aa6e2be4785ea0ad1 = $(`<div id="html_9181fa7b7b529b1aa6e2be4785ea0ad1" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : SIMPANG PESAK<br><b>Kabupaten</b> : BELITUNG TIMUR<br><b>Kecamatan</b> : SIMPANG PESAK<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_25b6c230673134c27c9864b8eb6425c3.setContent(html_9181fa7b7b529b1aa6e2be4785ea0ad1);
+                var html_67ddbeed1148cead3c51407a8832e941 = $(`<div id="html_67ddbeed1148cead3c51407a8832e941" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : SIMPANG PESAK<br><b>Kabupaten</b> : BELITUNG TIMUR<br><b>Kecamatan</b> : SIMPANG PESAK<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_e5be0ed4533101de1bcb3ff8789ee30d.setContent(html_67ddbeed1148cead3c51407a8832e941);
             
         
 
-        circle_marker_e975ce689a8e61a06cc3f22fe274ed39.bindPopup(popup_25b6c230673134c27c9864b8eb6425c3)
+        circle_marker_9b854a9a818e514b3fcd739e4bf1b9e1.bindPopup(popup_e5be0ed4533101de1bcb3ff8789ee30d)
         ;
 
         
     
     
-            var circle_marker_1a975c78c5d1b893b7d1c76c506c6f7d = L.circleMarker(
+            var circle_marker_b02aadab59d2e2c47e13e79f4f51fb19 = L.circleMarker(
                 [-2.87305555555556, 108.188388888889],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.8}
-            ).addTo(map_641bbb590b42f870d84af7f042c9533b);
+            ).addTo(map_4c5cfa23ee16cc1290375b03e96580d6);
         
     
-        var popup_c03a1d8929ce2707825127c95a815437 = L.popup({
+        var popup_c351f7fe673539b4902c11caf50e637f = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_35fc319da8673db4c980c179ce52a181 = $(`<div id="html_35fc319da8673db4c980c179ce52a181" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : SIMPANG RENGGIANG<br><b>Kabupaten</b> : BELITUNG TIMUR<br><b>Kecamatan</b> : SIMPANG RENGGIANG<br><b>Status</b> : Masih ada hujan</div>`)[0];
-                popup_c03a1d8929ce2707825127c95a815437.setContent(html_35fc319da8673db4c980c179ce52a181);
+                var html_640f5e81c567d915e085f23ef869c00d = $(`<div id="html_640f5e81c567d915e085f23ef869c00d" style="width: 100.0%; height: 100.0%;"><b>Lokasi</b> : SIMPANG RENGGIANG<br><b>Kabupaten</b> : BELITUNG TIMUR<br><b>Kecamatan</b> : SIMPANG RENGGIANG<br><b>Status</b> : Masih ada hujan</div>`)[0];
+                popup_c351f7fe673539b4902c11caf50e637f.setContent(html_640f5e81c567d915e085f23ef869c00d);
             
         
 
-        circle_marker_1a975c78c5d1b893b7d1c76c506c6f7d.bindPopup(popup_c03a1d8929ce2707825127c95a815437)
+        circle_marker_b02aadab59d2e2c47e13e79f4f51fb19.bindPopup(popup_c351f7fe673539b4902c11caf50e637f)
         ;
 
         
